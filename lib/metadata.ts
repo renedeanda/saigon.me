@@ -196,3 +196,41 @@ export function getAboutMetadata(): Metadata {
     },
   };
 }
+
+export function getDestinationsPageMetadata(): Metadata {
+  return {
+    title: 'Where to Go in Vietnam - Best Cities & Destinations',
+    description: 'Discover the best destinations in Vietnam. From Hanoi\'s ancient streets to Phu Quoc\'s beaches, Da Nang\'s modern charm to Hoi An\'s lantern-lit nights. Your complete Vietnam travel guide.',
+    keywords: ['Vietnam travel', 'Vietnam destinations', 'where to go in Vietnam', 'Vietnam cities', 'Hanoi', 'Da Nang', 'Hoi An', 'Phu Quoc', 'Sapa', 'Hue', 'Da Lat', 'Vietnam tourism', 'Vietnam guide'],
+    openGraph: {
+      title: 'Where to Go in Vietnam - Best Cities & Destinations | Saigon.me',
+      description: 'Discover Vietnam\'s most amazing destinations. From ancient cities to tropical islands, mountain retreats to beach paradises.',
+      images: ['/og-image.png'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Where to Go in Vietnam - Best Cities & Destinations',
+      description: 'Discover Vietnam\'s most amazing destinations. Ancient cities, tropical islands, mountains, and beaches.',
+      images: ['/og-image.png'],
+    },
+  };
+}
+
+export function getCityMetadata(cityName: string, nickname: string, description: string): Metadata {
+  return {
+    title: `${cityName} Travel Guide - ${nickname}`,
+    description: description.substring(0, 160) + '...',
+    keywords: [`${cityName}`, `${cityName} travel`, `${cityName} guide`, `Vietnam travel`, `visit ${cityName}`, `${cityName} tourism`, `things to do in ${cityName}`, 'Vietnam destinations'],
+    openGraph: {
+      title: `${cityName} Travel Guide - ${nickname} | Saigon.me`,
+      description: description.substring(0, 160) + '...',
+      images: ['/og-image.png'],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: `${cityName} Travel Guide - ${nickname}`,
+      description: description.substring(0, 160) + '...',
+      images: ['/og-image.png'],
+    },
+  };
+}

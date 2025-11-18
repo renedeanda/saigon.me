@@ -1,0 +1,616 @@
+{
+  "cities": [
+    {
+      "id": "da-nang",
+      "slug": "da-nang",
+      "name": "Da Nang",
+      "nickname": "City of Bridges",
+      "emoji": "🌉",
+      "color": "#4A90E2",
+      "region": "Central Vietnam",
+      "description": "Da Nang is Vietnam's most liveable city, where stunning beaches meet modern infrastructure. Nestled along the central coast, this vibrant metropolis offers the perfect blend of natural beauty, cultural heritage, and contemporary comforts. With its iconic Dragon Bridge breathing fire on weekend nights, pristine My Khe Beach, and the nearby Marble Mountains, Da Nang serves as the ideal base for exploring central Vietnam.",
+      "vibe": ["Modern", "Beachside", "Family-friendly", "Adventure"],
+      "whyGo": [
+        "World-class beaches including My Khe and Non Nuoc",
+        "Stunning Dragon Bridge with weekend fire shows",
+        "Gateway to Hoi An, Hue, and Marble Mountains",
+        "Excellent seafood and local specialties",
+        "Modern amenities with Vietnamese charm",
+        "Perfect weather from February to May"
+      ],
+      "topAttractions": [
+        {
+          "name": "My Khe Beach",
+          "description": "One of the world's most beautiful beaches with soft white sand and clear blue water"
+        },
+        {
+          "name": "Dragon Bridge",
+          "description": "Iconic bridge that breathes fire and water every weekend evening"
+        },
+        {
+          "name": "Marble Mountains",
+          "description": "Five limestone hills with caves, temples, and panoramic views"
+        },
+        {
+          "name": "Ba Na Hills",
+          "description": "Mountain resort with the famous Golden Bridge held by giant hands"
+        },
+        {
+          "name": "Son Tra Peninsula",
+          "description": "Lush nature reserve with beaches, pagodas, and rare wildlife"
+        }
+      ],
+      "whenToVisit": "February to May for the best weather with sunny skies and calm seas. June to August can be hot and humid. September to January brings rain and occasional storms.",
+      "howToGetThere": "Da Nang International Airport has direct flights from major Asian cities. The city is on the North-South railway line and Highway 1. It's 30km from Hoi An, 100km from Hue, and 970km from Hanoi.",
+      "localTips": [
+        "Rent a motorbike to explore the coastal road and nearby beaches",
+        "Visit Dragon Bridge on Saturday or Sunday at 9 PM for the fire show",
+        "Try mi Quang (turmeric noodles) - Da Nang's signature dish",
+        "Stay near My Khe Beach for the best beach access",
+        "Use the city's modern bus system - it's clean and affordable"
+      ],
+      "localSaying": {
+        "vietnamese": "Đà Nẵng, thành phố đáng sống",
+        "pronunciation": "Dah Nang, tahn foh dahng shong",
+        "english": "Da Nang, the city worth living",
+        "context": "A popular slogan reflecting Da Nang's high quality of life"
+      },
+      "didYouKnow": [
+        "Da Nang's Dragon Bridge is 666 meters long and breathes real fire",
+        "My Khe Beach was named by Forbes as one of the world's most luxurious beaches",
+        "The city is home to the world's longest single-span cable-stayed bridge"
+      ]
+    },
+    {
+      "id": "hoi-an",
+      "slug": "hoi-an",
+      "name": "Hoi An",
+      "nickname": "Ancient Town",
+      "emoji": "🏮",
+      "color": "#FFD700",
+      "region": "Central Vietnam",
+      "description": "Hoi An is a magical UNESCO World Heritage ancient town that feels like stepping back in time. Once a thriving port city, its well-preserved architecture, lantern-lit streets, and riverside charm create an enchanting atmosphere. By day, explore centuries-old merchant houses and colorful markets; by night, watch thousands of silk lanterns illuminate the Thu Bon River. This pedestrian-friendly town offers world-class tailoring, incredible food, and nearby beaches.",
+      "vibe": ["Historic", "Romantic", "Artistic", "Charming"],
+      "whyGo": [
+        "UNESCO World Heritage ancient town with preserved architecture",
+        "Thousands of colorful lanterns lighting the streets at night",
+        "World-renowned tailors for custom clothing",
+        "Incredible food scene with cooking classes",
+        "Short bike ride to pristine An Bang Beach",
+        "Pedestrian-friendly old town perfect for wandering"
+      ],
+      "topAttractions": [
+        {
+          "name": "Old Town",
+          "description": "Car-free historic quarter with ancient merchant houses and assembly halls"
+        },
+        {
+          "name": "Japanese Covered Bridge",
+          "description": "Iconic 400-year-old bridge connecting Japanese and Chinese quarters"
+        },
+        {
+          "name": "An Bang Beach",
+          "description": "Laid-back beach with bamboo beach bars and fresh seafood"
+        },
+        {
+          "name": "Night Market & Lantern Festival",
+          "description": "Monthly full moon celebration with floating lanterns on the river"
+        },
+        {
+          "name": "Tra Que Vegetable Village",
+          "description": "Organic farming village offering hands-on cooking experiences"
+        }
+      ],
+      "whenToVisit": "February to April offers the best weather with minimal rain. May to August is hot but lively. September to January brings occasional flooding from monsoons. Visit during full moon for the magical Lantern Festival.",
+      "howToGetThere": "Hoi An is 30km south of Da Nang International Airport (45-minute drive). Regular buses and private transfers connect the two cities. Many visitors fly into Da Nang and take a scenic taxi or Grab to Hoi An.",
+      "localTips": [
+        "Get custom clothes made - tailors can copy anything in 24 hours",
+        "Rent a bicycle to explore the countryside and beaches",
+        "Try cao lau (local noodle dish) and banh mi from Phuong's shop",
+        "Visit early morning or late evening to avoid day-trip crowds",
+        "Release a lantern on the river during full moon for good luck"
+      ],
+      "localSaying": {
+        "vietnamese": "Hội An, phố cổ ngàn năm",
+        "pronunciation": "Hoy An, foh koh ngan nam",
+        "english": "Hoi An, thousand-year-old ancient town",
+        "context": "Referring to Hoi An's long history as a trading port"
+      },
+      "didYouKnow": [
+        "Hoi An was Southeast Asia's major trading port from the 15th to 19th century",
+        "The town has over 1,000 historic buildings protected by UNESCO",
+        "Legend says the Japanese Bridge was built to kill a monster"
+      ]
+    },
+    {
+      "id": "da-lat",
+      "slug": "da-lat",
+      "name": "Da Lat",
+      "nickname": "City of Eternal Spring",
+      "emoji": "🌸",
+      "color": "#E91E63",
+      "region": "Central Highlands",
+      "description": "Da Lat is Vietnam's mountain retreat, perched at 1,500 meters with a refreshingly cool climate year-round. Known as the 'City of Eternal Spring,' this French colonial hill station features pine forests, flower gardens, romantic lakes, and distinctive architecture. It's where Vietnamese couples honeymoon, families escape the heat, and adventurers explore waterfalls and valleys. The cool weather allows for strawberry farms, coffee plantations, and wine production unique to this highland paradise.",
+      "vibe": ["Romantic", "Cool Climate", "Nature", "French Colonial"],
+      "whyGo": [
+        "Cool mountain climate - perfect escape from tropical heat",
+        "Stunning flower gardens and pine forests",
+        "Adventure activities: canyoning, hiking, mountain biking",
+        "Unique French colonial architecture and villas",
+        "Fresh strawberries, artichokes, and highland coffee",
+        "Romantic lakes and scenic viewpoints"
+      ],
+      "topAttractions": [
+        {
+          "name": "Crazy House",
+          "description": "Surreal guesthouse designed like a fairy tale treehouse"
+        },
+        {
+          "name": "Dalat Flower Gardens",
+          "description": "Colorful gardens showcasing hundreds of flower varieties"
+        },
+        {
+          "name": "Xuan Huong Lake",
+          "description": "Central lake perfect for swan boat rides and lakeside walks"
+        },
+        {
+          "name": "Datanla Waterfall",
+          "description": "Adventure waterfall with alpine coaster and canyoning"
+        },
+        {
+          "name": "Langbiang Mountain",
+          "description": "Twin peaks offering panoramic views of the highlands"
+        }
+      ],
+      "whenToVisit": "Year-round destination with consistent cool weather (15-24°C). December to March can be chilly with occasional fog - bring a jacket. July to October has more rain but lush greenery. Cherry blossoms bloom in January-February.",
+      "howToGetThere": "Lien Khuong Airport is 30km from Da Lat with flights from Hanoi, Saigon, and Da Nang. Scenic bus rides from Saigon take 7-8 hours through winding mountain roads. Private cars offer more comfort for the journey.",
+      "localTips": [
+        "Bring warm clothes - temperatures drop to 10°C at night in winter",
+        "Rent a motorbike to explore countryside and waterfalls",
+        "Try the local specialties: avocado ice cream, strawberry wine, grilled rice paper",
+        "Book a canyoning tour for an adrenaline rush at Datanla Falls",
+        "Visit the night market for street food and warm soy milk"
+      ],
+      "localSaying": {
+        "vietnamese": "Đà Lạt, thành phố ngàn hoa",
+        "pronunciation": "Dah Laht, tahn foh ngan hwa",
+        "english": "Da Lat, city of a thousand flowers",
+        "context": "Referring to Da Lat's famous flower gardens and cool climate"
+      },
+      "didYouKnow": [
+        "Da Lat was founded by the French in 1893 as a hill station retreat",
+        "The city supplies 60% of Vietnam's flowers and vegetables",
+        "Da Lat has Vietnam's only wine-producing region"
+      ]
+    },
+    {
+      "id": "vung-tau",
+      "slug": "vung-tau",
+      "name": "Vung Tau",
+      "nickname": "Seaside Escape",
+      "emoji": "⛱️",
+      "color": "#00BCD4",
+      "region": "Southern Vietnam",
+      "description": "Vung Tau is the closest beach getaway from Ho Chi Minh City, making it a popular weekend escape for city dwellers. This coastal city offers a mix of beaches, seafood restaurants, colonial villas, and religious sites. While not as pristine as other Vietnamese beaches, Vung Tau's proximity to Saigon (2 hours), bustling atmosphere, and fresh seafood make it perfect for a quick coastal break. The giant Christ statue and cable car provide spectacular ocean views.",
+      "vibe": ["Beach Town", "Seafood", "Weekend Getaway", "Laid-back"],
+      "whyGo": [
+        "Closest beach destination to Ho Chi Minh City",
+        "Fresh seafood at beachfront restaurants",
+        "Giant Christ statue with panoramic views",
+        "Quiet beaches on the Back Beach side",
+        "Historic French colonial architecture",
+        "Easy speedboat connections to nearby islands"
+      ],
+      "topAttractions": [
+        {
+          "name": "Christ of Vung Tau",
+          "description": "32-meter tall statue with 133 steps inside leading to ocean views"
+        },
+        {
+          "name": "Back Beach (Bai Sau)",
+          "description": "Longer, quieter beach popular with locals and kitesurfers"
+        },
+        {
+          "name": "White Palace (Bach Dinh)",
+          "description": "Former French governor's villa with antiques and ocean views"
+        },
+        {
+          "name": "Ho May Park",
+          "description": "Mountain park accessible by cable car with games and views"
+        },
+        {
+          "name": "Lighthouse",
+          "description": "Historic French lighthouse offering sunset views"
+        }
+      ],
+      "whenToVisit": "November to April offers the best beach weather with less rain. May to October brings afternoon showers. Weekends and holidays get very crowded with Saigon residents - visit midweek for a quieter experience.",
+      "howToGetThere": "From Saigon: Regular buses (2.5 hours) and hydrofoil speedboats (1.5 hours) from Bach Dang Pier. Private car or Grab takes about 2 hours via expressway. Many tour companies offer day trips from Ho Chi Minh City.",
+      "localTips": [
+        "Stay near Back Beach for a quieter, more relaxed atmosphere",
+        "Have fresh seafood at beachfront restaurants along Tran Phu Street",
+        "Visit on weekdays to avoid Saigon weekend crowds",
+        "Take the cable car up to Ho May Park for city views",
+        "Try banh khot (mini savory pancakes) - a Vung Tau specialty"
+      ],
+      "localSaying": {
+        "vietnamese": "Đi Vũng Tàu ăn hải sản",
+        "pronunciation": "Dee Voong Tow an hai sahn",
+        "english": "Go to Vung Tau to eat seafood",
+        "context": "Common saying about Vung Tau's famous fresh seafood"
+      },
+      "didYouKnow": [
+        "Vung Tau was called Cap Saint-Jacques during French colonial times",
+        "The Christ statue is slightly smaller than Rio's Christ the Redeemer",
+        "The city is a major center for Vietnam's offshore oil industry"
+      ]
+    },
+    {
+      "id": "hanoi",
+      "slug": "hanoi",
+      "name": "Hanoi",
+      "nickname": "Capital of Culture",
+      "emoji": "🏛️",
+      "color": "#F44336",
+      "region": "Northern Vietnam",
+      "description": "Hanoi is Vietnam's charming capital, where ancient traditions blend seamlessly with modern life. With over 1,000 years of history, the city captivates visitors with its tree-lined boulevards, French colonial architecture, bustling Old Quarter, and tranquil lakes. Street food vendors serve steaming bowls of pho on every corner, while motorbikes weave through narrow lanes. Hanoi offers world-class museums, vibrant nightlife, and serves as the gateway to Ha Long Bay and northern Vietnam.",
+      "vibe": ["Historic", "Cultural", "Bustling", "Traditional"],
+      "whyGo": [
+        "Vietnam's 1,000-year-old capital with rich history",
+        "Birthplace of iconic pho and incredible street food",
+        "Charming Old Quarter with ancient streets and shops",
+        "Beautiful French colonial architecture and tree-lined avenues",
+        "Gateway to Ha Long Bay and Sapa",
+        "Vibrant arts, culture, and nightlife scene"
+      ],
+      "topAttractions": [
+        {
+          "name": "Old Quarter",
+          "description": "Historic maze of 36 ancient streets named after traditional crafts"
+        },
+        {
+          "name": "Hoan Kiem Lake",
+          "description": "Central lake with red bridge to Ngoc Son Temple"
+        },
+        {
+          "name": "Temple of Literature",
+          "description": "Vietnam's first university dating back to 1070"
+        },
+        {
+          "name": "Ho Chi Minh Mausoleum",
+          "description": "Final resting place of Vietnam's revolutionary leader"
+        },
+        {
+          "name": "Train Street",
+          "description": "Narrow alley where trains pass inches from cafes and homes"
+        }
+      ],
+      "whenToVisit": "October to November and March to April offer ideal weather. December to February can be cold and foggy (10-15°C). May to September is hot and humid with occasional heavy rain. Winter requires light jackets and layers.",
+      "howToGetThere": "Noi Bai International Airport is 30km north of the city center with connections worldwide. The city is connected by train and bus to all major Vietnamese destinations. Ha Long Bay is a 3-4 hour drive east.",
+      "localTips": [
+        "Take a walking tour of the Old Quarter to explore the 36 streets",
+        "Try authentic pho at small street-side stalls",
+        "Sit on tiny plastic stools and enjoy egg coffee or bia hoi (fresh beer)",
+        "Watch the water puppet show - a unique Vietnamese art form",
+        "Be extra cautious crossing streets - follow locals' lead"
+      ],
+      "localSaying": {
+        "vietnamese": "Hà Nội, ba mươi sáu phố phường",
+        "pronunciation": "Hah Noy, bah mew-oy shao foh few-ung",
+        "english": "Hanoi, thirty-six streets",
+        "context": "Referring to the Old Quarter's 36 historic trade streets"
+      },
+      "didYouKnow": [
+        "Hanoi is over 1,000 years old, making it one of Asia's oldest capitals",
+        "The city has more than 600 temples and pagodas",
+        "Hanoi means 'city between rivers' referring to the Red River location"
+      ]
+    },
+    {
+      "id": "hue",
+      "slug": "hue",
+      "name": "Hue",
+      "nickname": "Imperial City",
+      "emoji": "👑",
+      "color": "#9C27B0",
+      "region": "Central Vietnam",
+      "description": "Hue was Vietnam's imperial capital from 1802 to 1945, and its regal legacy lives on through magnificent palaces, royal tombs, and the UNESCO-listed Citadel. Straddling the Perfume River, this culturally rich city offers a glimpse into Vietnam's dynastic past. Beyond its historic monuments, Hue is renowned for its sophisticated cuisine, traditional music, and the peaceful pace of life that contrasts with Vietnam's busier cities.",
+      "vibe": ["Imperial", "Historic", "Cultural", "Peaceful"],
+      "whyGo": [
+        "UNESCO World Heritage Citadel and Imperial City",
+        "Elaborate royal tombs scattered along the Perfume River",
+        "Sophisticated imperial cuisine and vegetarian Buddhist food",
+        "Traditional royal music and art performances",
+        "Peaceful boat rides on the Perfume River",
+        "Rich history as Vietnam's former capital"
+      ],
+      "topAttractions": [
+        {
+          "name": "Imperial City & Citadel",
+          "description": "Walled fortress complex with palaces, temples, and royal residences"
+        },
+        {
+          "name": "Tomb of Khai Dinh",
+          "description": "Elaborate hilltop mausoleum blending Vietnamese and European architecture"
+        },
+        {
+          "name": "Perfume River",
+          "description": "Scenic river perfect for boat cruises to pagodas and tombs"
+        },
+        {
+          "name": "Thien Mu Pagoda",
+          "description": "Iconic seven-story pagoda overlooking the river"
+        },
+        {
+          "name": "Dong Ba Market",
+          "description": "Bustling market offering local specialties and crafts"
+        }
+      ],
+      "whenToVisit": "February to April offers the best weather with sunny days and cool evenings. May to August is hot. September to January brings heavy rain and occasional flooding. Visit during Hue Festival (biennial) for cultural performances.",
+      "howToGetThere": "Phu Bai International Airport is 15km south of the city with flights from Hanoi, Saigon, and Da Nang. The city is on the main North-South railway line. It's 100km north of Da Nang (2.5-hour drive) and equidistant from Hanoi and Saigon.",
+      "localTips": [
+        "Hire a motorbike or join a tour to visit royal tombs along the river",
+        "Try bun bo Hue (spicy beef noodle soup) - the city's signature dish",
+        "Visit the Citadel early morning to avoid heat and crowds",
+        "Take a dragon boat cruise on the Perfume River at sunset",
+        "Sample com hen (clam rice) and banh khoai (crispy pancakes)"
+      ],
+      "localSaying": {
+        "vietnamese": "Huế, cố đô ngàn năm",
+        "pronunciation": "Hway, koh doh ngan nam",
+        "english": "Hue, thousand-year-old ancient capital",
+        "context": "Honoring Hue's long history as Vietnam's imperial seat"
+      },
+      "didYouKnow": [
+        "Hue was the capital of unified Vietnam under the Nguyen Dynasty",
+        "The Citadel was modeled after Beijing's Forbidden City",
+        "Hue cuisine is considered the most sophisticated in Vietnam with over 1,000 royal dishes"
+      ]
+    },
+    {
+      "id": "nha-trang",
+      "slug": "nha-trang",
+      "name": "Nha Trang",
+      "nickname": "Beach Resort Capital",
+      "emoji": "🏖️",
+      "color": "#00ACC1",
+      "region": "Central Coast",
+      "description": "Nha Trang is Vietnam's premier beach resort destination, blessed with a stunning 6km crescent bay, crystal-clear waters, and nearby tropical islands. This vibrant coastal city attracts beach lovers, divers, and party-goers with its developed tourism infrastructure, luxury resorts, and lively nightlife. Beyond the beaches, Nha Trang offers natural hot springs, mud baths, fresh seafood, and excellent diving and snorkeling around its offshore islands.",
+      "vibe": ["Beach Resort", "Diving", "Nightlife", "Islands"],
+      "whyGo": [
+        "Stunning 6km beach with clean sand and clear water",
+        "Excellent scuba diving and snorkeling sites",
+        "Tropical islands accessible by boat",
+        "Luxury resorts and hotels at reasonable prices",
+        "Therapeutic mud baths and hot springs",
+        "Vibrant nightlife and beach bars"
+      ],
+      "topAttractions": [
+        {
+          "name": "Nha Trang Beach",
+          "description": "Long sandy beach lined with palm trees and beachfront cafes"
+        },
+        {
+          "name": "Vinpearl Land",
+          "description": "Island amusement park accessible by cable car over the bay"
+        },
+        {
+          "name": "Po Nagar Cham Towers",
+          "description": "Ancient Hindu temple complex dating back to 781 AD"
+        },
+        {
+          "name": "Hon Mun Island",
+          "description": "Marine protected area with the best diving and snorkeling"
+        },
+        {
+          "name": "Thap Ba Mud Baths",
+          "description": "Relaxing mineral mud baths and hot springs"
+        }
+      ],
+      "whenToVisit": "January to August offers the best beach weather with calm, clear waters perfect for swimming and diving. September to December brings rough seas and occasional storms. Peak season is June to August when domestic tourists arrive.",
+      "howToGetThere": "Cam Ranh International Airport is 35km south with flights from major Asian cities and domestic destinations. The city is on Highway 1 and the North-South railway line. It's roughly 450km from Saigon (9-hour drive or 8-hour train).",
+      "localTips": [
+        "Book a diving tour to Hon Mun Island for the clearest waters",
+        "Try fresh seafood at the beachfront restaurants along the promenade",
+        "Take the cable car to Vinpearl for stunning bay views",
+        "Visit the mud baths for a unique relaxing experience",
+        "Explore nearby islands on a boat tour with snorkeling stops"
+      ],
+      "localSaying": {
+        "vietnamese": "Nha Trang, vịnh biển đẹp nhất",
+        "pronunciation": "Nya Chang, vin bee-en dep nyuht",
+        "english": "Nha Trang, the most beautiful bay",
+        "context": "Praising Nha Trang's stunning natural harbor"
+      },
+      "didYouKnow": [
+        "Nha Trang Bay was listed among the world's 29 most beautiful bays",
+        "The city has the longest cross-sea cable car in the world (3,320m)",
+        "Nha Trang's waters are home to diverse coral reefs and marine life"
+      ]
+    },
+    {
+      "id": "phu-quoc",
+      "slug": "phu-quoc",
+      "name": "Phu Quoc",
+      "nickname": "Pearl Island",
+      "emoji": "🏝️",
+      "color": "#4CAF50",
+      "region": "Southern Islands",
+      "description": "Phu Quoc is Vietnam's largest island and a tropical paradise in the Gulf of Thailand. With pristine white-sand beaches, turquoise waters, lush jungle interior, and spectacular sunsets, this island offers a perfect escape from mainland bustle. Recently developed with luxury resorts and improved infrastructure, Phu Quoc maintains its laid-back island vibe while providing world-class amenities. The island is famous for its fish sauce, black pepper, and pearl farms.",
+      "vibe": ["Island Paradise", "Beaches", "Luxury", "Relaxing"],
+      "whyGo": [
+        "Stunning white-sand beaches with crystal-clear water",
+        "Spectacular sunsets over the Gulf of Thailand",
+        "Excellent snorkeling and diving sites",
+        "Luxury resorts and boutique beachfront hotels",
+        "Night markets with fresh seafood",
+        "Pristine national park covering half the island"
+      ],
+      "topAttractions": [
+        {
+          "name": "Sao Beach (Bai Sao)",
+          "description": "Picture-perfect beach with powdery white sand and turquoise water"
+        },
+        {
+          "name": "Phu Quoc National Park",
+          "description": "Protected jungle with hiking trails and rare wildlife"
+        },
+        {
+          "name": "Dinh Cau Night Market",
+          "description": "Bustling market with fresh seafood and local street food"
+        },
+        {
+          "name": "Vinpearl Safari",
+          "description": "Wildlife park with African animals roaming semi-wild"
+        },
+        {
+          "name": "An Thoi Islands",
+          "description": "Cluster of small islands perfect for snorkeling and diving"
+        }
+      ],
+      "whenToVisit": "November to March offers the best weather with sunny skies and calm seas. April to May is hot but still pleasant. June to October brings monsoon rains - many resorts offer discounts but weather can be unpredictable.",
+      "howToGetThere": "Phu Quoc International Airport has direct flights from Hanoi, Saigon, Da Nang, and international destinations like Bangkok and Seoul. Fast ferries connect from Ha Tien and Rach Gia on the mainland (2.5 hours).",
+      "localTips": [
+        "Rent a motorbike to explore hidden beaches around the island",
+        "Visit the night market for fresh seafood and local atmosphere",
+        "Book a boat tour to the An Thoi Islands for snorkeling",
+        "Try the local fish sauce and black pepper - they're world-famous",
+        "Stay on Long Beach for sunset views or Sao Beach for pristine sand"
+      ],
+      "localSaying": {
+        "vietnamese": "Phú Quốc, đảo ngọc",
+        "pronunciation": "Foo Kwok, dow ngok",
+        "english": "Phu Quoc, pearl island",
+        "context": "The island's nickname referring to its beauty and pearl farms"
+      },
+      "didYouKnow": [
+        "Phu Quoc is Vietnam's only island district and largest island",
+        "The island produces the world-famous Phu Quoc fish sauce",
+        "Nearly 70% of the island is protected national park"
+      ]
+    },
+    {
+      "id": "sapa",
+      "slug": "sapa",
+      "name": "Sapa",
+      "nickname": "Mountain Retreat",
+      "emoji": "⛰️",
+      "color": "#8BC34A",
+      "region": "Northern Highlands",
+      "description": "Sapa is a misty mountain town perched in the Hoang Lien Son mountains near the Chinese border. Famous for its cascading rice terraces, ethnic minority villages, and dramatic mountain scenery, Sapa offers trekking, cultural immersion, and breathtaking views. The surrounding valleys are home to Hmong, Dao, and other hill tribes maintaining traditional ways of life. Whether hiking to remote villages or conquering Fansipan (Indochina's highest peak), Sapa delivers unforgettable mountain experiences.",
+      "vibe": ["Mountains", "Trekking", "Cultural", "Scenic"],
+      "whyGo": [
+        "Spectacular terraced rice fields cascading down mountains",
+        "Trekking through ethnic minority villages",
+        "Stunning mountain scenery and misty valleys",
+        "Fansipan - Indochina's highest peak (3,143m)",
+        "Rich cultural experiences with hill tribes",
+        "Cool mountain climate year-round"
+      ],
+      "topAttractions": [
+        {
+          "name": "Rice Terraces",
+          "description": "UNESCO-nominated terraced fields surrounding Sapa valleys"
+        },
+        {
+          "name": "Fansipan Mountain",
+          "description": "Vietnam's highest peak accessible by cable car or challenging trek"
+        },
+        {
+          "name": "Cat Cat Village",
+          "description": "Traditional Hmong village with waterfall and handicraft workshops"
+        },
+        {
+          "name": "Muong Hoa Valley",
+          "description": "Beautiful valley with ancient rock carvings and ethnic villages"
+        },
+        {
+          "name": "Sapa Market",
+          "description": "Weekend market where hill tribes gather to trade and socialize"
+        }
+      ],
+      "whenToVisit": "September to November for harvest season with golden rice terraces. March to May brings flowers and green terraces. December to February is cold (can drop to 0°C) with occasional snow. June to August is rainy but lush - bring waterproof gear.",
+      "howToGetThere": "Most visitors take overnight trains from Hanoi to Lao Cai (8 hours), then a 1-hour drive up to Sapa. Direct buses from Hanoi take 5-6 hours. Private cars offer more comfort. Book mountain transport in advance during peak season.",
+      "localTips": [
+        "Pack warm layers - temperatures drop significantly at night",
+        "Hire a local guide from ethnic minorities for authentic trekking",
+        "Visit in September-October for golden rice terraces",
+        "Try thang co (horse meat hot pot) - a local delicacy",
+        "Stay overnight in a homestay to experience local culture",
+        "Bargain respectfully when buying handicrafts from villagers"
+      ],
+      "localSaying": {
+        "vietnamese": "Lên Sapa ngắm ruộng bậc thang",
+        "pronunciation": "Len Sah-pah ngam zu-ong bahk tang",
+        "english": "Go up to Sapa to admire the terraced fields",
+        "context": "Common saying about Sapa's famous terraced rice fields"
+      },
+      "didYouKnow": [
+        "Sapa was established as a hill station by the French in 1922",
+        "The rice terraces are over 700 years old",
+        "Fansipan is called the 'Roof of Indochina' at 3,143 meters"
+      ]
+    },
+    {
+      "id": "mui-ne",
+      "slug": "mui-ne",
+      "name": "Mui Ne",
+      "nickname": "Desert Beach",
+      "emoji": "🏜️",
+      "color": "#FF9800",
+      "region": "Southern Coast",
+      "description": "Mui Ne is a unique coastal town where desert sand dunes meet the sea. Once a quiet fishing village, it's now a popular beach resort famous for its dramatic red and white sand dunes, steady winds perfect for kitesurfing, and stunning sunrise views. The surreal landscape of endless dunes contrasts beautifully with the blue coastline, creating a one-of-a-kind Vietnamese destination. Mui Ne offers a more relaxed alternative to busier beach destinations.",
+      "vibe": ["Beach", "Desert", "Adventure", "Kitesurfing"],
+      "whyGo": [
+        "Unique red and white sand dunes for sunrise adventures",
+        "World-class kitesurfing and windsurfing conditions",
+        "Colorful fishing village with unique round basket boats",
+        "Stunning sunrise over coastal sand dunes",
+        "Fresh seafood at beachfront restaurants",
+        "Convenient 4-hour drive from Ho Chi Minh City"
+      ],
+      "topAttractions": [
+        {
+          "name": "White Sand Dunes",
+          "description": "Massive Sahara-like dunes perfect for sunrise sandboarding"
+        },
+        {
+          "name": "Red Sand Dunes",
+          "description": "Closer dunes with red-orange sand ideal for sunset"
+        },
+        {
+          "name": "Fairy Stream",
+          "description": "Shallow stream flowing through orange and white limestone formations"
+        },
+        {
+          "name": "Mui Ne Fishing Village",
+          "description": "Colorful harbor with traditional round basket boats"
+        },
+        {
+          "name": "Kitesurfing Beaches",
+          "description": "Consistent winds from November to March attract kitesurfers worldwide"
+        }
+      ],
+      "whenToVisit": "November to March offers the best weather with sunshine and strong winds for water sports. April to October has less wind but is still pleasant for beach relaxation. The area receives less rain than other coastal regions year-round.",
+      "howToGetThere": "Mui Ne is 200km northeast of Ho Chi Minh City (4-hour drive via Highway 1). Regular buses depart from Saigon's central bus stations. Many visitors combine Mui Ne with Dalat on a multi-day trip. Taxis and Grab available from Phan Thiet.",
+      "localTips": [
+        "Wake up early to catch sunrise at the white sand dunes",
+        "Rent an ATV or jeep to explore the dunes more easily",
+        "Wade through Fairy Stream barefoot - wear quick-dry clothes",
+        "Try kitesurfing - many schools offer beginner lessons",
+        "Sample fresh seafood and dragonfruit from local farms",
+        "Bargain hard with drivers offering tours to the dunes"
+      ],
+      "localSaying": {
+        "vietnamese": "Mũi Né, đồi cát trắng đỏ",
+        "pronunciation": "Moo-ee Neh, doy kaht chang doh",
+        "english": "Mui Ne, white and red sand dunes",
+        "context": "Describing Mui Ne's most famous attractions"
+      },
+      "didYouKnow": [
+        "Mui Ne produces dragon fruit and fish sauce for export worldwide",
+        "The white sand dunes are nicknamed 'Little Sahara'",
+        "Mui Ne has the most consistent wind conditions in Southeast Asia for kitesurfing"
+      ]
+    }
+  ]
+}

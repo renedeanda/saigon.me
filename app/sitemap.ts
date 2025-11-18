@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import districtsData from '@/data/districts.json';
 import experiencesData from '@/data/experiences.json';
 import phrasesData from '@/data/phrases.json';
+import citiesData from '@/data/cities.json';
 
 export const dynamic = 'force-static';
 
@@ -40,6 +41,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
     staticPages.push({
       url: `${baseUrl}/${locale}/learn`,
+      lastModified: currentDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    });
+
+    staticPages.push({
+      url: `${baseUrl}/${locale}/destinations`,
       lastModified: currentDate,
       changeFrequency: 'weekly',
       priority: 0.9,
@@ -99,5 +107,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     });
   });
 
-  return [...staticPages, ...districtPages, ...experiencePages, ...learningPages];
+  // City destination pages
+  const cityPages: MetadataRoute.Sitemap = [];
+  locales.forEach(locale => {
+    citiesData.cities.forEach(city => {
+      cityPages.push({
+        url: `${baseUrl}/${locale}/destinations/${city.slug}`,
+        lastModified: currentDate,
+        changeFrequency: 'weekly',
+        priority: 0.8,
+      });
+    });
+  });
+
+  return [...staticPages, ...districtPages, ...experiencePages, ...learningPages, ...cityPages];
 }
