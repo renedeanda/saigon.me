@@ -155,6 +155,131 @@ export default async function LearnPage({ params }: { params: Promise<{ locale: 
           </div>
         </div>
       </section>
+
+      {/* Practical Learning Tips */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-4xl font-bold text-gray-900 mb-8 text-center">
+              Quick Learning Tips
+            </h2>
+
+            {/* Tones Explanation */}
+            <div className="bg-white rounded-xl p-8 mb-8 border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Understanding Vietnamese Tones</h3>
+              <p className="text-gray-700 mb-4">
+                Vietnamese has 6 tones, and they change the meaning completely. Don't worry—you don't need to be perfect. Locals will understand from context, and your effort matters more than precision.
+              </p>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Mid Level (a)</p>
+                  <p className="text-gray-600 text-sm">Flat, neutral tone</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Rising (á)</p>
+                  <p className="text-gray-600 text-sm">Voice goes up, like asking a question</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Falling (à)</p>
+                  <p className="text-gray-600 text-sm">Voice drops down</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Question (ả)</p>
+                  <p className="text-gray-600 text-sm">Starts down, then rises</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Tumbling (ã)</p>
+                  <p className="text-gray-600 text-sm">Wave pattern</p>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <p className="font-bold text-gray-900 mb-1">Sharp (ạ)</p>
+                  <p className="text-gray-600 text-sm">Cut short, glottal stop</p>
+                </div>
+              </div>
+              <div className="mt-6 bg-primary/5 border-l-4 border-primary p-4">
+                <p className="text-sm text-gray-700">
+                  <strong>Pro Tip:</strong> Use the pronunciation buttons throughout this site to hear native pronunciation. Listen multiple times and repeat out loud—speaking activates different parts of your brain than just reading.
+                </p>
+              </div>
+            </div>
+
+            {/* Common Mistakes */}
+            <div className="bg-white rounded-xl p-8 mb-8 border border-gray-200">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Common Mistakes to Avoid</h3>
+              <div className="space-y-4">
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">❌</span>
+                  <div>
+                    <p className="font-semibold text-gray-900">Mixing up "cà phê" (coffee) with "cá phê" (wrong!)</p>
+                    <p className="text-gray-600 text-sm">The tones matter! "Cà phê" gets you coffee. "Cá phê" is nonsense.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">❌</span>
+                  <div>
+                    <p className="font-semibold text-gray-900">Using "tôi" (I) with everyone</p>
+                    <p className="text-gray-600 text-sm">Vietnamese uses different pronouns based on age and context. "Tôi" is formal. With friends or vendors, use "anh/chị" (I'm older) or "em" (I'm younger). When in doubt, use "tôi"—it's not wrong, just formal.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">❌</span>
+                  <div>
+                    <p className="font-semibold text-gray-900">Skipping "xin" when being polite</p>
+                    <p className="text-gray-600 text-sm">"Cảm ơn" means thanks. "Xin cảm ơn" means "please accept my thanks"—much more polite. Add "xin" when you want to be extra respectful.</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <span className="text-2xl">✅</span>
+                  <div>
+                    <p className="font-semibold text-gray-900">Remember: Effort beats perfection</p>
+                    <p className="text-gray-600 text-sm">Vietnamese speakers appreciate ANY attempt. A smile + trying = instant connection. Don't let fear of mistakes stop you from speaking.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Your First 7 Days */}
+            <div className="bg-primary/5 rounded-xl p-8 border-2 border-primary">
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Your First 7 Days in Saigon: A Language Plan</h3>
+              <div className="space-y-3">
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 1: Master "Cảm ơn" (thank you)</p>
+                  <p className="text-gray-600 text-sm">Use it everywhere. Cashiers, drivers, waiters. Say it 50 times today.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 2: Add "Xin chào" (hello)</p>
+                  <p className="text-gray-600 text-sm">Greet every shopkeeper. Smile when you say it. Watch faces light up.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 3: Order coffee in Vietnamese</p>
+                  <p className="text-gray-600 text-sm">"Một cà phê sữa đá" (one iced milk coffee). Practice at 3 different cafes.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 4: Learn to say "How much?"</p>
+                  <p className="text-gray-600 text-sm">"Bao nhiêu tiền?" Use it at markets. Bonus: prices might drop.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 5: Add "Không cay" (not spicy)</p>
+                  <p className="text-gray-600 text-sm">If you don't handle heat well, this phrase will save you. Food vendors will respect it.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 6: Practice "Excuse me"</p>
+                  <p className="text-gray-600 text-sm">"Xin lỗi" when navigating crowds. Vietnamese cities are busy—this helps you move politely.</p>
+                </div>
+                <div className="bg-white p-4 rounded-lg">
+                  <p className="font-bold text-gray-900">Day 7: Combine everything</p>
+                  <p className="text-gray-600 text-sm">Order a meal entirely in Vietnamese. Greet, order, thank. You've got this.</p>
+                </div>
+              </div>
+              <div className="mt-6 bg-white p-4 rounded-lg border-2 border-primary">
+                <p className="text-sm text-gray-700">
+                  <strong className="text-primary">Week 2 Goal:</strong> Have a 30-second conversation with a local in Vietnamese. It can be about weather, coffee, or just pleasantries. The goal is speaking, not perfection.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

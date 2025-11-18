@@ -17,7 +17,7 @@ export function generateStaticParams() {
 }
 
 export default async function CategoryPage({ params }: Props) {
-  const { categoryId } = await params;
+  const { categoryId, locale } = await params;
   const category = experiencesData.categories.find((c) => c.id === categoryId);
 
   if (!category) {
@@ -27,24 +27,30 @@ export default async function CategoryPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
-      <section className="bg-gradient-to-r from-secondary to-primary py-16">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-white py-16 border-b border-gray-200">
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="container mx-auto px-4 relative z-10">
           <Link
-            href="/experiences"
-            className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 group"
+            href={`/${locale}/experiences`}
+            className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 mb-6 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             Back to all experiences
           </Link>
 
           <div className="max-w-4xl">
-            <h1 className="text-5xl font-bold text-white mb-4">
+            <h1 className="text-5xl font-bold text-gray-900 mb-4">
               {category.name}
             </h1>
-            <p className="text-xl text-white/90">
+            <p className="text-xl text-gray-600">
               {category.description}
             </p>
-            <div className="mt-4 text-white/80">
+            <div className="mt-4 text-gray-600">
               {category.experiences.length} experiences in this category
             </div>
           </div>
@@ -114,9 +120,9 @@ export default async function CategoryPage({ params }: Props) {
 
                   {/* Vietnamese Phrase */}
                   {experience.vietnamesePhrase && (
-                    <div className="bg-gradient-to-r from-secondary/10 to-primary/10 rounded-lg p-6">
+                    <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                       <div className="flex items-center gap-2 mb-3">
-                        <MessageCircle className="w-5 h-5 text-secondary" />
+                        <MessageCircle className="w-5 h-5 text-primary" />
                         <p className="font-semibold text-gray-800">Learn to say it:</p>
                       </div>
                       <p className="text-2xl font-bold text-gray-900 mb-2">

@@ -3,7 +3,6 @@
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LanguageSwitcher } from './LanguageSwitcher';
 import { motion } from 'framer-motion';
 
 export function Navigation() {
@@ -36,7 +35,7 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="flex items-center space-x-8">
             {links.map((link) => {
               const isActive = pathname === link.href || (link.href !== `/${locale}` && pathname?.startsWith(link.href));
               return (
@@ -59,9 +58,6 @@ export function Navigation() {
               );
             })}
           </div>
-
-          {/* Language Switcher */}
-          <LanguageSwitcher />
         </div>
       </div>
     </motion.nav>
