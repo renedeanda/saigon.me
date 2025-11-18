@@ -2,14 +2,20 @@ import { Heart } from 'lucide-react';
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
-      {/* Hero */}
-      <section className="bg-gradient-to-r from-secondary via-primary to-accent py-20">
-        <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
+    <div className="min-h-screen bg-white">
+      {/* Hero with subtle pattern */}
+      <section className="relative bg-white py-20 border-b border-gray-200">
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="container mx-auto px-4 text-center relative z-10">
+          <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             About Sài Gòn.me
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
             A love letter to the soul of Saigon
           </p>
         </div>
@@ -28,7 +34,7 @@ export default function AboutPage() {
                 Let's clear this up right away: both names are correct, and which one you use tells a story.
               </p>
 
-              <div className="bg-gradient-to-br from-secondary/10 to-primary/10 rounded-xl p-8 my-8">
+              <div className="bg-gray-50 rounded-xl p-8 my-8 border border-gray-200">
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">The History</h3>
                 <p>
                   On April 30, 1975, when North Vietnamese forces entered the city, Saigon was officially renamed "Ho Chi Minh City" after the revolutionary leader. Overnight, maps changed, signs were replaced, and a new era began.
@@ -47,7 +53,7 @@ export default function AboutPage() {
                 It's not political anymore—it's practical. "Saigon" is shorter, easier to say, and rolls off the tongue naturally. "HCMC" sounds like an acronym from a corporate memo. "Saigon" sounds like a city with a soul.
               </p>
 
-              <div className="bg-accent/10 border-l-4 border-accent p-6 my-8">
+              <div className="bg-primary/5 border-l-4 border-primary p-6 my-8">
                 <h3 className="text-xl font-bold text-gray-900 mb-3">What Should You Call It?</h3>
                 <ul className="space-y-3 list-disc list-inside">
                   <li>
@@ -71,7 +77,7 @@ export default function AboutPage() {
                 Calling it "Saigon" honors that spirit. It's a nod to the generations who built this city, the street vendors who wake at 4 AM, the motorbike drivers navigating impossible traffic, the families running pho stalls for 50 years. It's respect wrapped in two syllables.
               </p>
 
-              <div className="bg-gradient-to-r from-primary/20 to-accent/20 rounded-xl p-8 text-center my-12">
+              <div className="bg-gray-50 rounded-xl p-8 text-center my-12 border border-gray-200">
                 <p className="text-2xl font-bold text-gray-900 mb-4">
                   So when we say "Saigon.me," we're celebrating ALL of it:
                 </p>
@@ -122,7 +128,7 @@ export default function AboutPage() {
               </div>
 
               <p className="text-center text-gray-600 italic">
-                Made with <Heart className="inline w-5 h-5 text-red-500 fill-red-500" /> in Saigon, for anyone who's fallen under this city's spell.
+                Created with <Heart className="inline w-5 h-5 text-red-500 fill-red-500" /> for anyone who's fallen under Saigon's spell.
               </p>
             </div>
           </div>
