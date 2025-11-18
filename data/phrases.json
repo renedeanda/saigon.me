@@ -1,0 +1,292 @@
+{
+  "situations": [
+    {
+      "id": "cafe",
+      "name": "At the Café",
+      "icon": "coffee",
+      "description": "Cafes are social hubs in Saigon. Ordering confidently in Vietnamese will earn you smiles and sometimes free upgrades to your drink.",
+      "culturalNote": "Vietnamese coffee culture is sacred. Taking time to sit and sip is expected—rushing is seen as odd. Sidewalk cafes with tiny plastic stools are often better than fancy ones.",
+      "phrases": [
+        {
+          "vietnamese": "Một cà phê sữa đá",
+          "pronunciation": "Mote cah-feh soo-a da",
+          "literal": "One coffee milk ice",
+          "english": "One iced milk coffee",
+          "whenToUse": "Your essential coffee order—this is the default",
+          "culturalTip": "This is Southern Vietnamese iced coffee with condensed milk. It's sweet, strong, and addictive.",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cà phê đen",
+          "pronunciation": "Cah-feh den",
+          "literal": "Coffee black",
+          "english": "Black coffee",
+          "whenToUse": "If you want coffee without milk",
+          "culturalTip": "Add 'đá' (da) for iced, 'nóng' (nong) for hot",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cho tôi thêm đá",
+          "pronunciation": "Cho toy tem da",
+          "literal": "Give me more ice",
+          "english": "More ice please",
+          "whenToUse": "When your drink needs more ice in the heat",
+          "culturalTip": "Ice is free and plentiful—asking for more is normal",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Ngon quá!",
+          "pronunciation": "Ngon kwa!",
+          "literal": "Delicious very!",
+          "english": "So delicious!",
+          "whenToUse": "Complimenting the coffee—vendors love this",
+          "culturalTip": "This phrase makes people smile instantly",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "taxi",
+      "name": "In a Taxi / Grab",
+      "icon": "car",
+      "description": "Most rides are via Grab app now, but knowing these phrases helps with communication and shows respect.",
+      "culturalNote": "Grab is everywhere and safe. Traditional taxis can overcharge tourists—use the meter or stick with Grab. Drivers appreciate any Vietnamese attempt.",
+      "phrases": [
+        {
+          "vietnamese": "Tôi muốn đi đến...",
+          "pronunciation": "Toy moo-un dee den...",
+          "literal": "I want go to...",
+          "english": "I want to go to...",
+          "whenToUse": "Stating your destination",
+          "culturalTip": "Have the address written in Vietnamese or show on phone",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Dừng lại đây",
+          "pronunciation": "Yung lie day",
+          "literal": "Stop here",
+          "english": "Stop here please",
+          "whenToUse": "When you've arrived or want to stop",
+          "culturalTip": "Point as you say it for clarity",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Bao nhiêu tiền?",
+          "pronunciation": "Bao nyew tee-en?",
+          "literal": "How much money?",
+          "english": "How much does it cost?",
+          "whenToUse": "Asking the price (though Grab shows it upfront)",
+          "culturalTip": "With Grab you don't need this, but useful for traditional taxis",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cảm ơn anh!",
+          "pronunciation": "Gahm un an!",
+          "literal": "Thank you older brother",
+          "english": "Thank you! (to male driver)",
+          "whenToUse": "Thanking your driver",
+          "culturalTip": "Use 'anh' for male drivers, 'chị' (chee) for female drivers",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "restaurant",
+      "name": "At a Restaurant",
+      "icon": "utensils",
+      "description": "Street food stalls and local restaurants are where Vietnamese shines. These phrases will enhance your eating experience immensely.",
+      "culturalNote": "Pointing at menu items or what others are eating is totally acceptable. Food culture is casual and welcoming. Don't expect fast service—meals are social, not rushed.",
+      "phrases": [
+        {
+          "vietnamese": "Cho tôi một phần",
+          "pronunciation": "Cho toy mote fun",
+          "literal": "Give me one portion",
+          "english": "One portion please",
+          "whenToUse": "Ordering food at stalls or restaurants",
+          "culturalTip": "Point at what you want as you say this",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Không cay",
+          "pronunciation": "Khom kai",
+          "literal": "Not spicy",
+          "english": "Not spicy",
+          "whenToUse": "If you can't handle heat—VERY useful",
+          "culturalTip": "Vietnamese food isn't super spicy compared to Thai, but this helps",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tính tiền",
+          "pronunciation": "Teen tee-en",
+          "literal": "Calculate money",
+          "english": "Check please / Bill please",
+          "whenToUse": "When you want to pay",
+          "culturalTip": "May need to call the server over first with 'Em ơi!' (em oy - excuse me)",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Ngon lắm!",
+          "pronunciation": "Ngon lam!",
+          "literal": "Delicious very!",
+          "english": "Very delicious!",
+          "whenToUse": "Complimenting the food—makes vendors incredibly happy",
+          "culturalTip": "This phrase creates instant warmth and often leads to conversations",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Món này là gì?",
+          "pronunciation": "Mon nay la zee?",
+          "literal": "Dish this is what?",
+          "english": "What is this dish?",
+          "whenToUse": "Asking about unfamiliar food",
+          "culturalTip": "Point at the dish and ask—people love explaining their food",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "greetings",
+      "name": "Greetings & Politeness",
+      "icon": "hand-wave",
+      "description": "Vietnamese greetings depend on age and gender. These basics will serve you well and show respect.",
+      "culturalNote": "Age hierarchy is important in Vietnam. Using the right pronoun (anh/chi/em) shows cultural awareness and earns respect. When in doubt, use anh (for men) or chi (for women) for people who look older than you.",
+      "phrases": [
+        {
+          "vietnamese": "Xin chào",
+          "pronunciation": "Seen chao",
+          "literal": "Please hello",
+          "english": "Hello",
+          "whenToUse": "General greeting, safe in any situation",
+          "culturalTip": "Add 'anh' (male) or 'chị' (female) after for more respect: 'Xin chào anh'",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cảm ơn",
+          "pronunciation": "Gahm un",
+          "literal": "Thank",
+          "english": "Thank you",
+          "whenToUse": "Expressing gratitude—use it often!",
+          "culturalTip": "Can add 'nhiều' (nyew) for 'thank you very much': Cảm ơn nhiều",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Xin lỗi",
+          "pronunciation": "Seen loy",
+          "literal": "Please sorry",
+          "english": "Excuse me / Sorry",
+          "whenToUse": "Apologizing or getting someone's attention",
+          "culturalTip": "Works for both 'sorry' and 'excuse me'—context makes it clear",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Không sao",
+          "pronunciation": "Khom sao",
+          "literal": "Not anything / Not star",
+          "english": "No problem / It's okay",
+          "whenToUse": "Responding when someone apologizes",
+          "culturalTip": "Literally means 'no star' but means 'no worries'—very common phrase",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tạm biệt",
+          "pronunciation": "Tam bee-et",
+          "literal": "Temporary farewell",
+          "english": "Goodbye",
+          "whenToUse": "Formal goodbye",
+          "culturalTip": "More casual: 'Chào anh/chị' (just 'chao an/chee') works for bye too",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "shopping",
+      "name": "Shopping & Markets",
+      "icon": "shopping-bag",
+      "description": "Markets are social spaces. Bargaining is expected in some (like Ben Thanh) but not all. These phrases help navigate.",
+      "culturalNote": "Bargaining is an art in Vietnam. Smile, be friendly, and don't be aggressive. Fixed-price shops are becoming more common, especially in malls. When in doubt, ask if price can be negotiated.",
+      "phrases": [
+        {
+          "vietnamese": "Bao nhiêu tiền?",
+          "pronunciation": "Bao nyew tee-en?",
+          "literal": "How much money?",
+          "english": "How much?",
+          "whenToUse": "Asking the price of anything",
+          "culturalTip": "First price at tourist markets is often 2-3x actual—bargain politely",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Đắt quá!",
+          "pronunciation": "Dat kwa!",
+          "literal": "Expensive very!",
+          "english": "Too expensive!",
+          "whenToUse": "When bargaining—say it with a smile",
+          "culturalTip": "Part of the dance—they expect this response",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Giảm giá được không?",
+          "pronunciation": "Zam za doo-oc khom?",
+          "literal": "Reduce price can or not?",
+          "english": "Can you reduce the price?",
+          "whenToUse": "Politely asking for a discount",
+          "culturalTip": "Works better than demanding—Vietnamese appreciate politeness",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tôi mua cái này",
+          "pronunciation": "Toy moo-a kai nay",
+          "literal": "I buy this thing",
+          "english": "I'll buy this",
+          "whenToUse": "When you've agreed on a price",
+          "culturalTip": "Point at the item as you say it",
+          "difficulty": "easy"
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "name": "Emergency & Help",
+      "icon": "alert-triangle",
+      "description": "Hope you never need these, but knowing them provides peace of mind.",
+      "culturalNote": "Vietnamese people are generally very helpful to foreigners in distress. Don't hesitate to ask for help—'Xin lỗi' (excuse me) followed by simple English often works too.",
+      "phrases": [
+        {
+          "vietnamese": "Giúp tôi!",
+          "pronunciation": "Zoop toy!",
+          "literal": "Help me!",
+          "english": "Help me!",
+          "whenToUse": "When you need urgent help",
+          "culturalTip": "Wave your arms, look distressed—people will assist",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Gọi bác sĩ",
+          "pronunciation": "Goy bak see",
+          "literal": "Call doctor",
+          "english": "Call a doctor",
+          "whenToUse": "Medical emergency",
+          "culturalTip": "Show Google Translate or point to phone—hospitals have English speakers",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Nhà vệ sinh ở đâu?",
+          "pronunciation": "Nya veh seen ur dow?",
+          "literal": "Room hygiene at where?",
+          "english": "Where is the bathroom?",
+          "whenToUse": "Looking for restrooms (very important!)",
+          "culturalTip": "Pointing and saying 'WC' also works—universal sign",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tôi bị lạc",
+          "pronunciation": "Toy bee lak",
+          "literal": "I got lost",
+          "english": "I'm lost",
+          "whenToUse": "When you can't find your way",
+          "culturalTip": "Show your phone with destination—people will help or call you a Grab",
+          "difficulty": "medium"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "home": "Trang Chủ",
+    "districts": "Các Quận",
+    "experiences": "100 Trải Nghiệm",
+    "learn": "Học Tiếng Việt",
+    "quiz": "Trắc Nghiệm Quận",
+    "about": "Giới Thiệu",
+    "now": "Làm Gì Bây Giờ"
+  },
+  "hero": {
+    "welcome": "Xin chào Sài Gòn",
+    "subtitle": "Nơi mỗi con đường kể một câu chuyện",
+    "tagline1": "Thành phố không ngừng sôi động",
+    "tagline2": "Nơi xe máy nhảy múa và cà phê chảy tràn",
+    "tagline3": "Bức thư tình gửi tâm hồn Việt Nam",
+    "cta1": "Khám Phá Các Quận",
+    "cta2": "100 Cách Để Yêu",
+    "cta3": "Học Tiếng Việt"
+  },
+  "footer": {
+    "madeWith": "Làm với ❤️ ở Sài Gòn",
+    "description": "Tôn vinh các quận, trải nghiệm và ngôn ngữ kết nối tất cả chúng ta ở Sài Gòn."
+  },
+  "common": {
+    "readMore": "Đọc Thêm",
+    "learnMore": "Tìm Hiểu Thêm",
+    "explore": "Khám Phá",
+    "viewAll": "Xem Tất Cả",
+    "backToTop": "Về Đầu Trang"
+  }
+}

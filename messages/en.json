@@ -1,0 +1,32 @@
+{
+  "navigation": {
+    "home": "Home",
+    "districts": "Districts",
+    "experiences": "100 Experiences",
+    "learn": "Learn Vietnamese",
+    "quiz": "District Quiz",
+    "about": "About",
+    "now": "What to Do Now"
+  },
+  "hero": {
+    "welcome": "Welcome to Sài Gòn",
+    "subtitle": "Where every street tells a story",
+    "tagline1": "The city that never stops hustling",
+    "tagline2": "Where motorbikes dance and coffee flows",
+    "tagline3": "A love letter to the soul of Vietnam",
+    "cta1": "Meet the Districts",
+    "cta2": "100 Ways to Fall in Love",
+    "cta3": "Learn Vietnamese"
+  },
+  "footer": {
+    "madeWith": "Made with ❤️ in Saigon",
+    "description": "A celebration of Saigon's districts, experiences, and the language that connects us all."
+  },
+  "common": {
+    "readMore": "Read More",
+    "learnMore": "Learn More",
+    "explore": "Explore",
+    "viewAll": "View All",
+    "backToTop": "Back to Top"
+  }
+}

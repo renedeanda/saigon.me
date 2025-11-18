@@ -1,0 +1,665 @@
+{
+  "districts": [
+    {
+      "id": "district-1",
+      "slug": "district-1",
+      "name": "District 1",
+      "nickname": "The Overachiever",
+      "personality": "All business, always hustling, tourist-facing but with hidden depth. District 1 is that friend who seems to have it all together on the surface—sleek, confident, always in motion—but stick around after hours and you'll discover the layers underneath: quiet corners, secret rooftop hideaways, and stories that span centuries.",
+      "emoji": "💼",
+      "color": "#FFD700",
+      "vibe": [
+        "Energetic",
+        "Historic",
+        "Tourist-Friendly"
+      ],
+      "bestFor": [
+        "First-timers",
+        "History buffs",
+        "Nightlife seekers"
+      ],
+      "description": "District 1 is the heartbeat of Saigon—the place where every first-time visitor lands and immediately falls under the city's spell. This is where French colonial grandeur meets motorbike mayhem, where rooftop bars overlook centuries-old pagodas, and where you can eat breakfast pho at 6 AM and dance until sunrise.\n\nWalk down Dong Khoi Street and you'll pass the Notre Dame Cathedral, its red bricks shipped from Marseille in the 1880s, standing proud in Paris Square. Turn a corner and you're at the Saigon Opera House, a Belle Époque beauty that hosts everything from classical ballet to A O Shows celebrating Vietnamese culture.\n\nBut District 1 isn't just a postcard. Venture into the alleys off Nguyen Hue Walking Street and you'll find the Cafe Apartments—a Soviet-era residential block reborn as a vertical village of boutique coffee shops, each one more Instagram-worthy than the last. At street level, Ben Thanh Market hums from dawn to midnight, the scent of lemongrass and fresh herbs mixing with motorbike exhaust.\n\nThis district works hard and plays harder. By day, it's all business—offices, banks, embassies, and tourists ticking off landmarks. By night, Bui Vien transforms into a neon-lit carnival of backpacker bars, street food stalls, and that uniquely Vietnamese energy that never, ever sleeps.",
+      "neighborhoods": [
+        {
+          "name": "Ben Thanh",
+          "description": "The commercial heart, centered around the iconic market",
+          "vibe": "Bustling, Commercial, Touristy"
+        },
+        {
+          "name": "Dong Khoi",
+          "description": "Upscale shopping and French colonial architecture",
+          "vibe": "Elegant, Historic, Sophisticated"
+        },
+        {
+          "name": "Bui Vien",
+          "description": "Backpacker central with bars and nightlife",
+          "vibe": "Lively, International, Party"
+        },
+        {
+          "name": "Da Kao",
+          "description": "Quiet streets with consulates and excellent restaurants",
+          "vibe": "Residential, Diplomatic, Foodie"
+        }
+      ],
+      "famousFor": [
+        "Ben Thanh Market",
+        "Notre Dame Cathedral",
+        "Independence Palace",
+        "Saigon Opera House",
+        "Bitexco Tower",
+        "Nguyen Hue Walking Street"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Cafe Apartments on Nguyen Hue",
+          "description": "Soviet-era building transformed into a vertical village of quirky cafes",
+          "tip": "Go in late afternoon when the light is golden"
+        },
+        {
+          "name": "Tao Dan Park at sunrise",
+          "description": "Watch locals practice tai chi and traditional music",
+          "tip": "Arrive by 6 AM for the full experience"
+        },
+        {
+          "name": "Secret courtyards behind Dong Khoi",
+          "description": "Hidden colonial-era spaces now home to art galleries",
+          "tip": "Wander with curiosity—doors are often open"
+        }
+      ],
+      "whenToVisit": "Early morning (5-8 AM) for authentic street life and pho, or evening (6-10 PM) for rooftop bars and the Walking Street energy. Midday heat can be brutal—retreat to air-conditioned cafes.",
+      "gettingThere": "District 1 is the center—you're likely already here. Everything is walkable, though the humidity might have you reaching for a Grab every few blocks. The Saigon River forms the eastern border.",
+      "localSaying": {
+        "vietnamese": "Sài Gòn không bao giờ ngủ",
+        "pronunciation": "Sài Gòn khong bao zaw ngoo",
+        "english": "Saigon never sleeps",
+        "context": "The unofficial motto of District 1's non-stop energy"
+      },
+      "didYouKnow": [
+        "The Notre Dame Cathedral bricks were imported from Marseille, France—not a single one was made in Vietnam",
+        "Nguyen Hue Walking Street was once a canal called Charner Canal until the French filled it in",
+        "The Cu Chi Tunnels used to have exits right in District 1 during the war",
+        "Bitexco Tower's helipad hosted a performance by the Red Bull Air Race team"
+      ]
+    },
+    {
+      "id": "district-3",
+      "slug": "district-3",
+      "name": "District 3",
+      "nickname": "The Artist",
+      "personality": "Creative, thoughtful, and endlessly curious. District 3 is the friend who shows up with a vintage film camera, knows the best hole-in-the-wall galleries, and can talk for hours about the layers of history hiding in plain sight. Sophisticated but never pretentious, local but welcoming.",
+      "emoji": "🎨",
+      "color": "#40E0D0",
+      "vibe": [
+        "Artsy",
+        "Thoughtful",
+        "Sophisticated"
+      ],
+      "bestFor": [
+        "Creatives",
+        "Coffee connoisseurs",
+        "Those seeking authentic local vibes"
+      ],
+      "description": "District 3 is where Saigon takes a breath. Named one of the world's coolest neighborhoods by Time Out Magazine, this is the district that locals claim as their own—quieter than District 1, but no less vibrant. It's where artists, writers, and anyone who values good coffee and better conversations gather.\n\nThe streets here tell stories. Pasteur Street stretches through the district's heart, home to the legendary Pho Hoa—a Michelin Bib Gourmand spot that's been ladling perfect bowls since 1968. Around the corner, Vo Van Tan street blooms with independent boutiques selling Vietnamese designer fashion you won't find anywhere else.\n\nBut it's the alleys (hẻm) where District 3 truly shines. Alley 287 on Nguyen Dinh Chieu opens onto a secret world of hidden cafes. Hem 113 on Vo Thi Sau is a narrow corridor lined with specialty coffee shops where baristas pour art into every cup. In these spaces, time slows down—ceiling fans spin lazily, condensation drips from glasses of ca phe sua da, and locals sit for hours reading, working, dreaming.\n\nThe centerpiece? The pink-hued Tan Dinh Church, a pastel confection of Romanesque architecture that's become an Instagram sensation but remains, first and foremost, a working church where grandmothers pray and weddings bloom every Sunday.",
+      "neighborhoods": [
+        {
+          "name": "Vo Van Tan",
+          "description": "Boutique shopping and hidden cafes",
+          "vibe": "Fashionable, Quiet, Local"
+        },
+        {
+          "name": "Pasteur Street",
+          "description": "Food paradise with legendary pho spots",
+          "vibe": "Foodie, Historic, Busy"
+        },
+        {
+          "name": "Nguyen Dinh Chieu",
+          "description": "Alleyway cafes and creative spaces",
+          "vibe": "Artsy, Hidden, Cool"
+        },
+        {
+          "name": "Turtle Lake area",
+          "description": "Nighttime gathering spot with street food",
+          "vibe": "Social, Lively, Authentic"
+        }
+      ],
+      "famousFor": [
+        "Tan Dinh Church (Pink Church)",
+        "Turtle Lake (Ho Con Rua)",
+        "Pho Hoa Pasteur",
+        "Specialty coffee scene",
+        "Salon Saigon art space"
+      ],
+      "hiddenGems": [
+        {
+          "name": "NEO Cafe",
+          "description": "Art gallery by day, 70s-themed bar by night with house-brewed craft beer",
+          "tip": "Visit during an art opening—free wine and fascinating local artists"
+        },
+        {
+          "name": "Alley 287 Nguyen Dinh Chieu",
+          "description": "Hidden corridor of independent cafes and quiet contemplation",
+          "tip": "Get lost on purpose—each cafe has its own personality"
+        },
+        {
+          "name": "Salon Saigon",
+          "description": "Contemporary Vietnamese art space in a former American ambassador's home",
+          "tip": "Free entry, but call ahead for opening hours"
+        },
+        {
+          "name": "Tu Xuong Street cafes",
+          "description": "Bird song-filled cafes with floor seating",
+          "tip": "Afternoon is prime daydreaming time"
+        }
+      ],
+      "whenToVisit": "Mornings for pho (6-9 AM), late afternoons for cafe hopping (3-6 PM), evenings around Turtle Lake for street food and people-watching (7-10 PM). Weekdays are quieter and more local.",
+      "gettingThere": "Just west of District 1, easily reachable by Grab or motorbike taxi. Pasteur Street runs right through from District 1. Walking from Ben Thanh Market takes about 20 minutes.",
+      "localSaying": {
+        "vietnamese": "Uống cà phê và ngắm đời",
+        "pronunciation": "Oo-ong cah-feh vah ngahm doy",
+        "english": "Drink coffee and watch life go by",
+        "context": "The District 3 way of life—slow down and observe"
+      },
+      "didYouKnow": [
+        "Tan Dinh Church's pink color was a 2015 restoration choice that sparked debate—locals now love it",
+        "The Nguyen Thien Thuat apartment complex is a brutalist masterpiece hiding cafes in every corner",
+        "District 3 has the highest concentration of specialty coffee shops per square kilometer in Vietnam",
+        "Time Out's 2019 'Coolest Neighborhood' ranking put District 3 at #18 globally"
+      ]
+    },
+    {
+      "id": "district-4",
+      "slug": "district-4",
+      "name": "District 4",
+      "nickname": "The Foodie",
+      "personality": "Unpretentious, generous, and utterly authentic. District 4 is that friend who insists on taking you to 'the real Saigon'—the one where plastic stools outnumber chairs, where seafood is so fresh it was swimming an hour ago, and where locals welcome you with open arms and another round of bia hoi.",
+      "emoji": "🍜",
+      "color": "#10b981",
+      "vibe": [
+        "Authentic",
+        "Local",
+        "Delicious"
+      ],
+      "bestFor": [
+        "Food adventurers",
+        "Those seeking real Saigon",
+        "Seafood lovers"
+      ],
+      "description": "District 4 doesn't pretend to be anything it's not. While District 1 dresses up for tourists, District 4 is busy feeding the soul of Saigon—one steaming bowl at a time.\n\nThis densely packed district hugs the Saigon River and is considered by many to have the best street food in the entire city. Vinh Khanh Street is the stuff of legend: as sunset approaches, the street transforms into an open-air seafood carnival. Vendors spread out grills on the sidewalk, cooking clams, shrimp, and fish while young Saigonese crowd onto tiny plastic stools, beer in hand, celebrating the end of another day.\n\nTon Dan Street offers nearly every Vietnamese street food you can imagine—banh xeo (sizzling crepes), bun rieu cua (crab noodle soup), and com tam (broken rice with grilled pork). Prices are shockingly low: a full meal rarely exceeds $3, even though you're eating in the heart of the city.\n\nBut the real magic is in the alleys. Alley 200 Xom Chieu is a hidden world where grandmothers cook family recipes passed down through generations. Doan Van Bo street winds through neighborhoods where architecture is delightfully chaotic—tiny houses stacked like Tetris blocks, laundry hanging overhead, kids playing soccer in impossibly narrow lanes.\n\nDistrict 4 is Saigon with its guard down—genuine, welcoming, and utterly delicious.",
+      "neighborhoods": [
+        {
+          "name": "Vinh Khanh Street",
+          "description": "Seafood street food paradise, especially at night",
+          "vibe": "Lively, Social, Seafood-centric"
+        },
+        {
+          "name": "Ton Dan Street",
+          "description": "Comprehensive Vietnamese street food lineup",
+          "vibe": "Bustling, Authentic, Affordable"
+        },
+        {
+          "name": "200 Xom Chieu",
+          "description": "Hidden alley with family-run food stalls",
+          "vibe": "Local, Hidden, Traditional"
+        },
+        {
+          "name": "Doan Van Bo",
+          "description": "Residential maze with surprises around every corner",
+          "vibe": "Residential, Quirky, Real"
+        }
+      ],
+      "famousFor": [
+        "Vinh Khanh seafood street",
+        "Incredibly cheap and authentic street food",
+        "Bia hoi (fresh beer) culture",
+        "Local markets",
+        "Saigon River views"
+      ],
+      "hiddenGems": [
+        {
+          "name": "200 Xom Chieu Alley",
+          "description": "A labyrinth of family-run food stalls with recipes passed through generations",
+          "tip": "Go with a local or follow your nose—signage is minimal"
+        },
+        {
+          "name": "Early morning markets",
+          "description": "Witness Saigon's commerce in action before 7 AM",
+          "tip": "Bring small bills and a smile—English is rare but warmth is universal"
+        },
+        {
+          "name": "River coffee spots",
+          "description": "Unmarked cafes along the Saigon River with stunning views",
+          "tip": "Ask locals for 'ca phe song'—river coffee"
+        }
+      ],
+      "whenToVisit": "Evening (6-10 PM) for Vinh Khanh seafood street at its liveliest. Early morning (5-8 AM) for markets and authentic breakfast. Avoid midday heat—locals retreat indoors.",
+      "gettingThere": "South of District 1, across the Khanh Hoi Bridge. Grab is your friend. Motorbike rides through the alleys are an adventure in themselves.",
+      "localSaying": {
+        "vietnamese": "Ăn ngon, bổ, rẻ",
+        "pronunciation": "An ngon, baw, zeh",
+        "english": "Delicious, nutritious, cheap",
+        "context": "The District 4 promise at every food stall"
+      },
+      "didYouKnow": [
+        "District 4 is one of the most densely populated districts in Ho Chi Minh City despite being quite small",
+        "The district was once an island before canals were filled in",
+        "A bowl of soup in District 4 costs $2-3 despite the central location",
+        "Locals say you haven't truly eaten in Saigon until you've sat on a plastic stool in District 4"
+      ]
+    },
+    {
+      "id": "district-5",
+      "slug": "district-5",
+      "name": "District 5 (Cholon)",
+      "nickname": "The Traditionalist",
+      "personality": "Wise, layered, and deeply rooted. District 5 is the elder who's seen it all—waves of migration, wars, boom times, and transformations—yet holds tight to tradition. It honors the past while living fully in the present, where incense smoke curls through ancient temples and business is conducted in three languages.",
+      "emoji": "🏮",
+      "color": "#DC143C",
+      "vibe": [
+        "Historic",
+        "Traditional",
+        "Multicultural"
+      ],
+      "bestFor": [
+        "History enthusiasts",
+        "Temple architecture lovers",
+        "Dim sum seekers"
+      ],
+      "description": "Cholon—which means 'Big Market'—is Vietnam's only Chinatown, and it's magnificent. This is where Chinese traders settled in the 18th century, bringing with them temples, traditions, and a business acumen that still drives the district today.\n\nThe temples here aren't tourist attractions; they're living, breathing spiritual centers. Thien Hau Pagoda, dedicated to the goddess of the sea, fills with worshippers daily—the air thick with incense, the altars heavy with offerings. Quan Am Pagoda's courtyard features ceramic sculptures telling ancient stories, each figure hand-crafted generations ago.\n\nBinh Tay Market is the heart of it all. Unlike Ben Thanh's tourist focus, Binh Tay serves locals—wholesalers haggling over fabric, merchants buying rice in 50-kilo bags, and families shopping for the week's groceries. The architecture is stunning: yellow walls, green-tiled roofs, and a central courtyard that feels transported from 1920s Guangzhou.\n\nThe food scene here is a glorious fusion. Dim sum spots serve shrimp dumplings and char siu bao. Hu tieu (rice noodle soup) arrives in bowls that blend Chinese technique with Vietnamese herbs. Walking these streets, you'll hear Vietnamese, Cantonese, and Mandarin mixing in the humid air—a linguistic symphony unique to Cholon.",
+      "neighborhoods": [
+        {
+          "name": "Cho Lon Market area",
+          "description": "Commercial heart around Binh Tay Market",
+          "vibe": "Busy, Wholesale, Authentic"
+        },
+        {
+          "name": "Tran Hung Dao corridor",
+          "description": "Temple row with multiple historic pagodas",
+          "vibe": "Spiritual, Historic, Peaceful"
+        },
+        {
+          "name": "Nguyen Trai Street",
+          "description": "Traditional medicine shops and herb vendors",
+          "vibe": "Traditional, Medicinal, Aromatic"
+        }
+      ],
+      "famousFor": [
+        "Binh Tay Market",
+        "Thien Hau Pagoda",
+        "Quan Am Pagoda",
+        "Dim sum restaurants",
+        "Traditional Chinese medicine shops",
+        "Cha Ca La Vong street food"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Early morning at Binh Tay Market",
+          "description": "Watch the city's commerce come alive at 5 AM",
+          "tip": "Bring a camera and patience—this is wholesale chaos at its finest"
+        },
+        {
+          "name": "Traditional medicine shops on Luong Nhu Hoc",
+          "description": "Centuries-old remedies and fascinating conversations",
+          "tip": "Ask questions—shopkeepers love sharing their knowledge"
+        },
+        {
+          "name": "Cantonese dim sum spots",
+          "description": "Family-run restaurants where recipes haven't changed in decades",
+          "tip": "Point at what looks good—menus are often Chinese-only"
+        }
+      ],
+      "whenToVisit": "Early morning (5-9 AM) for markets and temples at their most active. Weekends are busiest. Avoid midday heat. Late afternoon (3-6 PM) is perfect for temple visits when light slants through courtyards.",
+      "gettingThere": "West of District 1, along the Saigon River. About 15-20 minutes by Grab from central District 1. Bus 1 also runs here from Ben Thanh.",
+      "localSaying": {
+        "vietnamese": "Chợ Lớn - nơi hội tụ văn hóa",
+        "pronunciation": "Chur Lun - noy hoy too van hoh-a",
+        "english": "Cholon - where cultures converge",
+        "context": "Celebrating the Chinese-Vietnamese cultural blend"
+      },
+      "didYouKnow": [
+        "Cholon was originally a separate city before being incorporated into Saigon",
+        "The district is home to Vietnam's largest ethnic Chinese population",
+        "Many buildings date back to the French colonial era with Chinese architectural elements",
+        "Binh Tay Market's architecture was designed by French architect Porthault in the 1920s",
+        "During the Vietnam War, Cholon was known for its black market trading"
+      ]
+    },
+    {
+      "id": "district-2",
+      "slug": "district-2",
+      "name": "District 2 (Thao Dien)",
+      "nickname": "The Expat",
+      "personality": "Cosmopolitan, comfortable, and slightly bougie—but in the best way. District 2 is that friend who's traveled the world, speaks three languages, and can find you the best flat white in the city. Open-minded and international, yet still rooted in Vietnamese charm.",
+      "emoji": "☕",
+      "color": "#8B4513",
+      "vibe": [
+        "International",
+        "Trendy",
+        "Comfortable"
+      ],
+      "bestFor": [
+        "Expats",
+        "Families",
+        "Brunch enthusiasts",
+        "International food lovers"
+      ],
+      "description": "District 2, specifically Thao Dien ward, is Saigon's international village. Named the 16th 'Most Interesting Neighborhood in the World' by Time Out in 2024, this is where expat families settle, where international schools cluster, and where you can find authentic Italian pizza, French pastries, and Australian brunch—all within blocks of each other.\n\nThao Dien's transformation has been remarkable. A decade ago, this was quiet riverside suburbia. Today, tree-lined Xuan Thuy Street and Ngo Quang Huy are lined with villa-style cafes, wine bars, and restaurants that would feel at home in Melbourne or Brooklyn. Vintage Emporium serves all-day breakfast with locally roasted coffee. Pendolasco fires wood-oven pizzas that Neapolitans approve of. Okkio Caffe's red exterior pops against tropical greenery, serving specialty coffee inspired by Wong Kar-wai films.\n\nBut it's not all Western imports. The Loop offers French-Vietnamese fusion brunch. Local markets still bustle with Vietnamese grandmothers buying morning vegetables. And the Saigon River provides a stunning backdrop—sunset cruises depart from District 2's piers, offering skyline views as the city lights up.\n\nYes, it's the 'expat bubble,' but it's also a fascinating case study in cultural fusion, where Vietnamese warmth meets global sophistication.",
+      "neighborhoods": [
+        {
+          "name": "Thao Dien",
+          "description": "The upscale heart with international restaurants and cafes",
+          "vibe": "Expat-friendly, Trendy, Cosmopolitan"
+        },
+        {
+          "name": "An Phu",
+          "description": "Mix of local markets and modern developments",
+          "vibe": "Balanced, Residential, Developing"
+        },
+        {
+          "name": "Thu Thiem",
+          "description": "Modern development with river views",
+          "vibe": "New, Sleek, Growing"
+        }
+      ],
+      "famousFor": [
+        "International restaurants",
+        "Specialty coffee culture",
+        "Thao Dien villa life",
+        "International schools",
+        "Saigon River views",
+        "Michelin-selected restaurants"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Vintage Emporium",
+          "description": "French colonial villa housing a cafe, boutique, and garden",
+          "tip": "Reserve for weekend brunch—it fills fast"
+        },
+        {
+          "name": "Okkio Caffe",
+          "description": "Wong Kar-wai inspired red cafe with nostalgia-inducing design",
+          "tip": "Sunset time for the best light and vibe"
+        },
+        {
+          "name": "Local wet markets",
+          "description": "Still-authentic Vietnamese markets amid the expat scene",
+          "tip": "Early morning for the freshest produce and local interactions"
+        },
+        {
+          "name": "Saigon River sunset spots",
+          "description": "Unmarked riverside cafes with stunning views",
+          "tip": "Ask locals for 'quan ca phe ben song'"
+        }
+      ],
+      "whenToVisit": "Brunch time (9 AM-1 PM) on weekends for the full Thao Dien experience. Early evenings (5-7 PM) for riverside sunset. Weekdays are quieter and easier to get tables.",
+      "gettingThere": "East of District 1, across the Saigon River. Thu Thiem Tunnel makes it a quick 15-20 minute Grab ride from central District 1. Saigon River ferries also connect to District 1.",
+      "localSaying": {
+        "vietnamese": "Thảo Điền - nơi hòa quyện thế giới",
+        "pronunciation": "Tao Zee-an - noy hwah kwen teh zoy",
+        "english": "Thao Dien - where the world blends together",
+        "context": "Celebrating the international community"
+      },
+      "didYouKnow": [
+        "Thao Dien was once a riverside village known for its durian orchards",
+        "District 2 has the highest concentration of international schools in Vietnam",
+        "Time Out ranked Thao Dien #16 in 'Most Interesting Neighborhoods' globally in 2024",
+        "Several restaurants in Thao Dien have received Michelin recognition",
+        "The district is planning a $17 billion 'Innovation City' development"
+      ]
+    },
+    {
+      "id": "binh-thanh",
+      "slug": "binh-thanh",
+      "name": "Binh Thanh District",
+      "nickname": "The Up-and-Comer",
+      "personality": "Young, creative, and full of potential. Binh Thanh is that friend who's about to blow up—still authentic and affordable, but with a creative energy that's attracting artists, musicians, and anyone who wants to be part of something new. This is Saigon's Brooklyn, its Kreuzberg, its coolest secret.",
+      "emoji": "🚀",
+      "color": "#9333ea",
+      "vibe": [
+        "Hip",
+        "Emerging",
+        "Creative"
+      ],
+      "bestFor": [
+        "Artists and creatives",
+        "Those seeking the 'next big thing'",
+        "Budget-conscious travelers",
+        "Authentic local experiences"
+      ],
+      "description": "Time Out Magazine declared Binh Thanh one of the '40 Coolest Neighborhoods in the World,' specifically calling out Pham Viet Chanh Street and Ward 19 as the epicenter. And they're right—something special is happening here.\n\nThis is the Brooklyn of Saigon, where art galleries sit next to generation-old pho stalls. Where you can grab a $2 banh mi from a street vendor who's been on the same corner for 30 years, then walk next door to a craft cocktail bar serving Vietnamese-inspired mixology. The energy is electric but not overwhelming, authentic but evolving.\n\nPham Viet Chanh Street is the heart of it all. Cafe Tartine serves French pastries alongside Vietnamese coffee. Captain Phook brings creative Vietnamese fusion. Toa Tau offers workshops and cultural events. Meanwhile, HCMC's Fine Arts University ensures a steady stream of creative energy—students spill out of studios, carrying paintings, debating art movements, bringing youth and vibrancy to the streets.\n\nLandmark 81, Southeast Asia's tallest building, towers over the district—a symbol of Binh Thanh's rapid transformation. But for now, the district retains its soul: tree-lined streets, Van Thanh Park's morning tai chi, traditional temples, and neighbors who still chat on stoops.\n\nCome now, before the secret is fully out.",
+      "neighborhoods": [
+        {
+          "name": "Pham Viet Chanh (Ward 19)",
+          "description": "The coolest street—art, cafes, and creative energy",
+          "vibe": "Hip, Creative, Energetic"
+        },
+        {
+          "name": "Van Thanh Tourist Area",
+          "description": "Parks and riverside relaxation",
+          "vibe": "Green, Peaceful, Local"
+        },
+        {
+          "name": "Xo Viet Nghe Tinh",
+          "description": "Commercial corridor with local markets",
+          "vibe": "Busy, Local, Authentic"
+        }
+      ],
+      "famousFor": [
+        "Pham Viet Chanh Street",
+        "Landmark 81 tower",
+        "HCMC Fine Arts University",
+        "Van Thanh Park",
+        "Emerging arts scene",
+        "Affordable authentic food"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Toa Tau cultural space",
+          "description": "Workshops, exhibitions, and community events",
+          "tip": "Check their schedule for evening events and artist talks"
+        },
+        {
+          "name": "Traditional pho stalls on Xo Viet Nghe Tinh",
+          "description": "Family recipes that predate the hipster invasion",
+          "tip": "Ask for 'pho dac biet'—the special with everything"
+        },
+        {
+          "name": "Street art alleys off Pham Viet Chanh",
+          "description": "Murals and installations by local artists",
+          "tip": "Wander with no destination—that's when you find magic"
+        },
+        {
+          "name": "Van Thanh Park at sunrise",
+          "description": "Locals practicing tai chi and traditional music",
+          "tip": "6 AM is peak activity time"
+        }
+      ],
+      "whenToVisit": "Evenings (6-10 PM) when Pham Viet Chanh comes alive with cafes and bars. Weekends for the creative crowd. Early mornings (5-8 AM) for traditional Saigon scenes at markets and parks.",
+      "gettingThere": "Just across the bridge from District 1, easily accessible by Grab. Riding a motorbike here takes about 10 minutes from central District 1. The district stretches along the Saigon River.",
+      "localSaying": {
+        "vietnamese": "Bình Thạnh - Nơi cũ và mới hòa quyện",
+        "pronunciation": "Bin Tan - Noy coo vah moy hwah kwen",
+        "english": "Binh Thanh - where old and new blend",
+        "context": "The district's evolving identity"
+      },
+      "didYouKnow": [
+        "Time Out called Binh Thanh one of the 40 coolest neighborhoods globally",
+        "Landmark 81 is the tallest building in Southeast Asia at 461 meters",
+        "Pham Viet Chanh was a quiet residential street just 5 years ago",
+        "The district name means 'Peaceful' or 'Peace' in Vietnamese",
+        "Van Thanh Park hosts free outdoor concerts on weekends"
+      ]
+    },
+    {
+      "id": "district-7",
+      "slug": "district-7",
+      "name": "District 7 (Phu My Hung)",
+      "nickname": "The Family",
+      "personality": "Organized, modern, and family-focused. District 7 is that friend who has their life together—clean streets, good schools, reliable infrastructure, and a sensible bedtime. It's the suburbs with Southeast Asian flair, where you can actually find parking and kids bike safely on tree-lined paths.",
+      "emoji": "🏡",
+      "color": "#06b6d4",
+      "vibe": [
+        "Modern",
+        "Family-Friendly",
+        "Organized"
+      ],
+      "bestFor": [
+        "Families with children",
+        "Those seeking modern comforts",
+        "Shopping enthusiasts",
+        "Expats wanting structure"
+      ],
+      "description": "District 7, particularly the Phu My Hung area, is Saigon's model urban community—a planned development that prioritizes livability over chaos. And yes, that makes it different from the rest of Saigon, but that's precisely the point.\n\nThis is where you'll find wide boulevards instead of motorbike-choked alleys. Where Crescent Mall offers 112,000 square meters of shopping, dining, and entertainment—rooftop water parks for kids, CGV cinemas, over 200 brands, and food courts with panoramic views. Where SC VivoCity provides family-friendly atmosphere and play areas that let parents actually relax.\n\nThe Phu My Hung area feels almost suburban by Saigon standards. Parks are actually green and maintained. International schools cluster here—ISHCMC, Australian International School, British International School—making it expat family central. Cafes cater to parents with strollers. Restaurants have high chairs and kid-friendly menus.\n\nBut District 7 isn't all sanitized modernity. Scrape past the malls and you'll find local markets, Vietnamese coffee shops where old men play chess, and pho stalls that have been serving the same recipe for decades. The Saigon River forms the eastern border, offering sunset views and breezy waterfront restaurants.\n\nIs it the 'real' Saigon? No. But it's a real part of Saigon—one that shows how the city is evolving, where families can thrive, and where modern infrastructure meets Vietnamese warmth.",
+      "neighborhoods": [
+        {
+          "name": "Phu My Hung",
+          "description": "The planned community with modern infrastructure",
+          "vibe": "Clean, Organized, International"
+        },
+        {
+          "name": "Tan Phong",
+          "description": "Mix of local life and modern development",
+          "vibe": "Transitional, Growing, Mixed"
+        },
+        {
+          "name": "Tan Phu",
+          "description": "More traditional Vietnamese neighborhoods",
+          "vibe": "Local, Authentic, Residential"
+        }
+      ],
+      "famousFor": [
+        "Crescent Mall",
+        "SC VivoCity",
+        "Lotte Mart",
+        "International schools",
+        "Clean streets and parks",
+        "Family-friendly environment",
+        "Phu My Hung planned community"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Crescent Mall rooftop",
+          "description": "Water play zones and panoramic city views",
+          "tip": "Sunset time for spectacular photo ops"
+        },
+        {
+          "name": "Local markets behind the malls",
+          "description": "Traditional Vietnamese markets still thriving",
+          "tip": "Morning is best—fresh produce and local energy"
+        },
+        {
+          "name": "Riverfront cafes along Nguyen Thi Thap",
+          "description": "Breezy spots with Saigon River views",
+          "tip": "Evening for cooler temperatures and twinkling lights"
+        },
+        {
+          "name": "Park paths at Starlight Bridge",
+          "description": "Scenic walking and cycling routes",
+          "tip": "Early morning or late evening for the best temperature"
+        }
+      ],
+      "whenToVisit": "Anytime, honestly—that's the beauty of District 7's reliability. Weekends for shopping and family activities. Evenings (5-9 PM) for riverside dining and cooler temperatures.",
+      "gettingThere": "South of District 1, about 20-30 minutes by Grab depending on traffic. Pham Van Dong highway provides quick access. Bus routes also connect to central Saigon.",
+      "localSaying": {
+        "vietnamese": "Phú Mỹ Hưng - Thành phố trong thành phố",
+        "pronunciation": "Foo Me Hung - Tan faw tron tan faw",
+        "english": "Phu My Hung - A city within a city",
+        "context": "Reflecting the self-contained nature of the development"
+      },
+      "didYouKnow": [
+        "Phu My Hung was developed in the 1990s as Vietnam's first planned urban area",
+        "Crescent Mall spans 112,000 square meters across six floors",
+        "The district has the highest concentration of international schools in HCMC",
+        "District 7 was mostly marshland before the Phu My Hung development",
+        "The area is home to Lotte Mart's largest store in Vietnam"
+      ]
+    },
+    {
+      "id": "phu-nhuan",
+      "slug": "phu-nhuan",
+      "name": "Phu Nhuan District",
+      "nickname": "The Local",
+      "personality": "Authentic, middle-class, and refreshingly real. Phu Nhuan is that friend who doesn't try to impress but wins you over with genuine warmth. While tourists flood District 1, this is where Saigonese actually live—raising families, running businesses, and gathering at neighborhood cafes. It's Saigon without the performance.",
+      "emoji": "🏘️",
+      "color": "#f97316",
+      "vibe": [
+        "Authentic",
+        "Residential",
+        "Understated"
+      ],
+      "bestFor": [
+        "Expats seeking real life",
+        "Coffee enthusiasts",
+        "Those avoiding tourist traps"
+      ],
+      "description": "Phu Nhuan is Saigon's best-kept secret—not because it's hidden, but because tourists simply skip it on their way between the airport and District 1. Their loss. This centrally located district offers something rare in modern Saigon: authenticity without pretense.\n\nPhan Xich Long Street cuts through the heart of the district, a 1.5-kilometer boulevard that has evolved from dingy backwater to food paradise. High-end restaurants sit next to hole-in-the-wall pho stalls. International chains coexist with family-run cafes that have served the same regulars for decades. It's gentrifying, yes, but slowly enough that the soul remains intact.\n\nSouth of Phan Xich Long lies the Flower Quarter—streets named Hoa Lan (Orchid), Hoa Dao (Peach Blossom), Hoa Hong (Rose), and Hoa Su (Frangipani). This leafy grid is Saigon's unofficial 'café capital,' where trendy coffee shops occupy French colonial villas and locals spend entire afternoons nursing a single ca phe sua da while working on laptops or gossiping with neighbors.\n\nUnlike District 1's hustle or District 2's expat bubble, Phu Nhuan moves at human pace. Gia Dinh Park—one of Saigon's largest green spaces—fills with families on weekends. Phu Nhuan Market buzzes with shoppers buying fresh produce, not souvenirs. The streets are wide, tree-lined, and blessedly less chaotic than downtown. This is where you live, not just visit.",
+      "neighborhoods": [
+        {
+          "name": "Phan Xich Long",
+          "description": "Food paradise boulevard with endless restaurants and cafes",
+          "vibe": "Vibrant, Foodie, Evolving"
+        },
+        {
+          "name": "Flower Quarter (Hoa streets)",
+          "description": "Leafy streets lined with trendy cafes in colonial villas",
+          "vibe": "Charming, Peaceful, Café-centric"
+        },
+        {
+          "name": "Gia Dinh Park area",
+          "description": "Green oasis with residential vibes",
+          "vibe": "Family-friendly, Relaxed, Local"
+        },
+        {
+          "name": "Phu Nhuan Market vicinity",
+          "description": "Authentic local market life",
+          "vibe": "Traditional, Bustling, Real"
+        }
+      ],
+      "famousFor": [
+        "Phan Xich Long food street",
+        "The Flower Quarter cafes",
+        "Gia Dinh Park",
+        "Phap Hoa Pagoda",
+        "Authentic middle-class Saigon life",
+        "Specialty coffee scene"
+      ],
+      "hiddenGems": [
+        {
+          "name": "Café-hopping the Flower Streets",
+          "description": "Hoa Lan, Hoa Dao, Hoa Hong streets hide dozens of charming independent cafes",
+          "tip": "Spend a whole afternoon wandering—each street has its own vibe"
+        },
+        {
+          "name": "Phu Nhuan Market breakfast",
+          "description": "Where locals actually shop—no tourist bargaining, just real prices and fresh food",
+          "tip": "Arrive by 7 AM for the freshest produce and authentic energy"
+        },
+        {
+          "name": "Gia Dinh Park at sunrise",
+          "description": "Join locals for tai chi, jogging, and morning exercise rituals",
+          "tip": "The park comes alive between 5:30-7 AM—bring your running shoes"
+        },
+        {
+          "name": "Hidden alley cafes off Phan Xich Long",
+          "description": "Venture into side streets for family-run cafes unchanged for decades",
+          "tip": "Look for places with old furniture and no English signs—that's where the good stuff is"
+        }
+      ],
+      "whenToVisit": "Morning (6-9 AM) for markets and parks. Late afternoon (3-6 PM) for café culture in the Flower Quarter. Evening (6-9 PM) for Phan Xich Long street food. Weekdays are quieter and more authentically local.",
+      "gettingThere": "Centrally located, just 10 minutes from Tan Son Nhat Airport and 10 minutes from District 1. Grab is reliable. Phan Xich Long is the main artery. From District 1, head north on Nguyen Thi Minh Khai.",
+      "localSaying": {
+        "vietnamese": "Phú Nhuận - Nơi người Sài Gòn sống thật",
+        "pronunciation": "Foo Nwun - Noy nguoi Sài Gòn song that",
+        "english": "Phu Nhuan - Where Saigonese live for real",
+        "context": "Locals' way of distinguishing it from tourist-heavy districts"
+      },
+      "didYouKnow": [
+        "Phu Nhuan is often called Saigon's 'café capital' due to the density of coffee shops in the Flower Quarter",
+        "The district is only 10 minutes from both the airport and District 1—yet tourists rarely visit",
+        "Phan Xich Long went from 'kind of dingy' to food paradise in just two decades",
+        "Lots of young Vietnamese professionals and newer expats are moving here for authenticity and lower costs",
+        "The Flower Quarter streets (Hoa Lan, Hoa Dao, etc.) are all named after different flowers",
+        "Phap Hoa Pagoda holds 10,000 ceramic vases—acknowledged by the Vietnam Book of Records"
+      ]
+    }
+  ]
+}
