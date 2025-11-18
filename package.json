@@ -1,0 +1,43 @@
+{
+  "name": "saigon-me",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "export": "next build && next export",
+    "generate:districts": "tsx scripts/generate-districts.ts",
+    "generate:experiences": "tsx scripts/generate-experiences.ts",
+    "generate:phrases": "tsx scripts/generate-phrases.ts",
+    "generate:all": "tsx scripts/generate-all-content.ts",
+    "update:all": "npm run generate:all",
+    "validate:content": "tsx scripts/validate-content.ts"
+  },
+  "dependencies": {
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.445.0",
+    "next": "^15.0.0",
+    "next-intl": "^3.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^15.0.0",
+    "postcss": "^8.0.0",
+    "tailwindcss": "^3.4.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
