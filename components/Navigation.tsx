@@ -11,7 +11,6 @@ export function Navigation() {
   const pathname = usePathname();
 
   const links = [
-    { href: `/${locale}`, label: t('home') },
     { href: `/${locale}/districts`, label: t('districts') },
     { href: `/${locale}/experiences`, label: t('experiences') },
     { href: `/${locale}/learn`, label: t('learn') },
@@ -35,14 +34,14 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center space-x-4 lg:space-x-8">
             {links.map((link) => {
-              const isActive = pathname === link.href || (link.href !== `/${locale}` && pathname?.startsWith(link.href));
+              const isActive = pathname?.startsWith(link.href);
               return (
                 <Link
                   key={link.href}
                   href={link.href}
-                  className={`text-sm font-medium transition-colors relative group ${
+                  className={`text-xs lg:text-sm font-medium transition-colors relative group ${
                     isActive ? 'text-gray-900' : 'text-gray-600 hover:text-gray-900'
                   }`}
                 >

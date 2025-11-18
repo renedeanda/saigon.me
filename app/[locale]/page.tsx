@@ -7,7 +7,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <div className="relative">
       {/* Hero Section - Subtle Red Background with Vietnamese Pattern */}
-      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-red-50 pb-20 md:pb-24">
+      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-red-50 pb-20 md:pb-24 pt-12 md:pt-16">
         {/* Subtle Pattern Background with Red */}
         <div
           className="absolute inset-0 opacity-[0.08]"
@@ -18,9 +18,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            {/* Lantern Icon */}
+            {/* Star Icon */}
             <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 rounded-full mb-4">
-              <span className="text-5xl">🏮</span>
+              <span className="text-5xl">⭐</span>
             </div>
 
             {/* Main Heading */}
