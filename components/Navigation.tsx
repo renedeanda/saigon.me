@@ -17,6 +17,7 @@ export function Navigation() {
     { href: `/${locale}/districts`, label: t('districts') },
     { href: `/${locale}/experiences`, label: t('experiences') },
     { href: `/${locale}/learn`, label: t('learn') },
+    { href: `/${locale}/destinations`, label: t('destinations') },
     { href: `/${locale}/quiz`, label: t('quiz') },
     { href: `/${locale}/about`, label: t('about') },
   ];
