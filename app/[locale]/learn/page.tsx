@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import phrasesData from '@/data/phrases.json';
 import { Coffee, Car, Utensils, Hand, ShoppingBag, AlertTriangle, BookOpen } from 'lucide-react';
+import { getLearnPageMetadata } from '@/lib/metadata';
+
+export const metadata = getLearnPageMetadata();
 
 const iconMap: { [key: string]: any } = {
   coffee: Coffee,

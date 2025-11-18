@@ -3,6 +3,7 @@ import phrasesData from '@/data/phrases.json';
 import Link from 'next/link';
 import { ArrowLeft, Lightbulb, Info } from 'lucide-react';
 import { PronunciationButton } from '@/components/PronunciationButton';
+import { getLearnMetadata } from '@/lib/metadata';
 
 interface Props {
   params: Promise<{
@@ -15,6 +16,17 @@ export function generateStaticParams() {
   return phrasesData.situations.map((situation) => ({
     situationId: situation.id,
   }));
+}
+
+export async function generateMetadata({ params }: Props) {
+  const { situationId } = await params;
+  const situation = phrasesData.situations.find((s) => s.id === situationId);
+
+  if (!situation) {
+    return {};
+  }
+
+  return getLearnMetadata(situation.name, situation.description);
 }
 
 export default async function SituationPage({ params }: Props) {

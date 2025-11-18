@@ -1,4 +1,7 @@
 import { Heart } from 'lucide-react';
+import { getAboutMetadata } from '@/lib/metadata';
+
+export const metadata = getAboutMetadata();
 
 export default function AboutPage() {
   return (

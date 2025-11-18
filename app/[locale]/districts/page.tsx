@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import districtsData from '@/data/districts.json';
 import { MapPin } from 'lucide-react';
+import { getDistrictsPageMetadata } from '@/lib/metadata';
+
+export const metadata = getDistrictsPageMetadata();
 
 export default async function DistrictsPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;

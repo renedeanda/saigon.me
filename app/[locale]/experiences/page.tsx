@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import experiencesData from '@/data/experiences.json';
 import { Coffee, Map, Utensils, Heart, Bike } from 'lucide-react';
+import { getExperiencesPageMetadata } from '@/lib/metadata';
+
+export const metadata = getExperiencesPageMetadata();
 
 const iconMap: { [key: string]: any } = {
   sunrise: Coffee,

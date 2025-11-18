@@ -42,6 +42,51 @@
           "whenToUse": "Complimenting the coffee—vendors love this",
           "culturalTip": "This phrase makes people smile instantly",
           "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cà phê trứng",
+          "pronunciation": "Cah-feh chung",
+          "literal": "Coffee egg",
+          "english": "Egg coffee",
+          "whenToUse": "Ordering the famous Hanoi-style egg coffee (also popular in Saigon)",
+          "culturalTip": "Creamy, sweet, and rich—like a coffee dessert",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cà phê dừa",
+          "pronunciation": "Cah-feh yuh-a",
+          "literal": "Coffee coconut",
+          "english": "Coconut coffee",
+          "whenToUse": "A Southern specialty—coffee with coconut milk",
+          "culturalTip": "Refreshing and tropical, perfect for hot days",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Có wifi không?",
+          "pronunciation": "Go wifi khom?",
+          "literal": "Have wifi not?",
+          "english": "Do you have wifi?",
+          "whenToUse": "Asking about wifi at cafes",
+          "culturalTip": "Most cafes have wifi—password is often on the wall or menu",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Mật khẩu wifi là gì?",
+          "pronunciation": "Mat cow wifi la zee?",
+          "literal": "Password wifi is what?",
+          "english": "What's the wifi password?",
+          "whenToUse": "After confirming they have wifi",
+          "culturalTip": "Sometimes it's just the phone number of the cafe",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Cho tôi ngồi đây được không?",
+          "pronunciation": "Cho toy ngoy day doo-oc khom?",
+          "literal": "Give me sit here can or not?",
+          "english": "Can I sit here?",
+          "whenToUse": "Asking if a table/seat is available",
+          "culturalTip": "Cafes can get crowded—asking shows politeness",
+          "difficulty": "medium"
         }
       ]
     },
@@ -87,6 +132,60 @@
           "whenToUse": "Thanking your driver",
           "culturalTip": "Use 'anh' for male drivers, 'chị' (chee) for female drivers",
           "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Rẽ trái",
+          "pronunciation": "Zeh chai",
+          "literal": "Turn left",
+          "english": "Turn left",
+          "whenToUse": "Giving directions to the driver",
+          "culturalTip": "Point as you say it for extra clarity",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Rẽ phải",
+          "pronunciation": "Zeh fai",
+          "literal": "Turn right",
+          "english": "Turn right",
+          "whenToUse": "Giving directions to the driver",
+          "culturalTip": "Most drivers follow GPS now, but this helps in complex areas",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Đi thẳng",
+          "pronunciation": "Dee tang",
+          "literal": "Go straight",
+          "english": "Go straight",
+          "whenToUse": "When you want them to continue straight",
+          "culturalTip": "Combine with hand gestures for best results",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Chậm thôi",
+          "pronunciation": "Cham toy",
+          "literal": "Slow only",
+          "english": "Slow down please",
+          "whenToUse": "If the driver is going too fast for comfort",
+          "culturalTip": "Say it politely—Saigon traffic moves fast but safety first",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Đợi một chút",
+          "pronunciation": "Doy mote chute",
+          "literal": "Wait one moment",
+          "english": "Wait a moment please",
+          "whenToUse": "If you need the driver to wait briefly",
+          "culturalTip": "Show your phone/watch to indicate how long",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Đi sân bay Tân Sơn Nhất",
+          "pronunciation": "Dee sun buy Tan Sun Nyat",
+          "literal": "Go airport Tan Son Nhat",
+          "english": "Go to Tan Son Nhat Airport",
+          "whenToUse": "Essential for airport trips",
+          "culturalTip": "Airport is about 30-40 minutes from District 1",
+          "difficulty": "medium"
         }
       ]
     },
@@ -140,6 +239,69 @@
           "english": "What is this dish?",
           "whenToUse": "Asking about unfamiliar food",
           "culturalTip": "Point at the dish and ask—people love explaining their food",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tôi ăn chay",
+          "pronunciation": "Toy an chai",
+          "literal": "I eat vegetarian",
+          "english": "I'm vegetarian",
+          "whenToUse": "Indicating dietary restrictions",
+          "culturalTip": "Vietnam has great vegetarian food—look for 'cơm chay' restaurants",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Không bột ngọt",
+          "pronunciation": "Khom bot ngot",
+          "literal": "Not powder sweet",
+          "english": "No MSG",
+          "whenToUse": "If you want to avoid MSG",
+          "culturalTip": "MSG is common in Vietnamese cooking—this requests without",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Cho tôi nước lọc",
+          "pronunciation": "Cho toy noo-oc lock",
+          "literal": "Give me water filtered",
+          "english": "Filtered water please",
+          "whenToUse": "Ordering water",
+          "culturalTip": "Usually they bring bottled water—tap water isn't safe to drink",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Món nào ngon?",
+          "pronunciation": "Mon now ngon?",
+          "literal": "Dish which delicious?",
+          "english": "What's good here? / What do you recommend?",
+          "whenToUse": "Asking for recommendations",
+          "culturalTip": "Locals love sharing their favorites—leads to best discoveries",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Cho tôi đũa",
+          "pronunciation": "Cho toy doo-a",
+          "literal": "Give me chopsticks",
+          "english": "Chopsticks please",
+          "whenToUse": "If you need chopsticks",
+          "culturalTip": "Most places have them, but sometimes you need to ask",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Em ơi!",
+          "pronunciation": "Em oy!",
+          "literal": "Younger sibling hey!",
+          "english": "Excuse me! (to get server's attention)",
+          "whenToUse": "Calling a waiter or server",
+          "culturalTip": "Standard way to get attention—not rude at all",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cay một chút",
+          "pronunciation": "Kai mote chute",
+          "literal": "Spicy one little",
+          "english": "A little bit spicy",
+          "whenToUse": "If you want some spice but not too much",
+          "culturalTip": "Vietnamese usually add chili sauce themselves at the table",
           "difficulty": "medium"
         }
       ]
@@ -195,6 +357,60 @@
           "whenToUse": "Formal goodbye",
           "culturalTip": "More casual: 'Chào anh/chị' (just 'chao an/chee') works for bye too",
           "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Bạn khỏe không?",
+          "pronunciation": "Ban kway khom?",
+          "literal": "You healthy not?",
+          "english": "How are you?",
+          "whenToUse": "Asking someone how they're doing",
+          "culturalTip": "Use 'anh/chị' instead of 'bạn' for older people",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tôi khỏe, cảm ơn",
+          "pronunciation": "Toy kway, gahm un",
+          "literal": "I healthy, thank",
+          "english": "I'm fine, thank you",
+          "whenToUse": "Responding to 'how are you?'",
+          "culturalTip": "Follow up with 'còn bạn?' (còn ban?) meaning 'and you?'",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Rất vui được gặp bạn",
+          "pronunciation": "Zat voo-ee doo-oc gap ban",
+          "literal": "Very happy be able meet you",
+          "english": "Nice to meet you",
+          "whenToUse": "Meeting someone for the first time",
+          "culturalTip": "Smile when you say this—warmth goes far",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Hẹn gặp lại",
+          "pronunciation": "Hen gap lie",
+          "literal": "Promise meet again",
+          "english": "See you later / See you again",
+          "whenToUse": "Casual goodbye when you'll see them again",
+          "culturalTip": "More casual than 'tạm biệt' and friendlier",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Chúc ngủ ngon",
+          "pronunciation": "Chook ngu ngon",
+          "literal": "Wish sleep delicious",
+          "english": "Good night / Sleep well",
+          "whenToUse": "Saying goodnight",
+          "culturalTip": "Sweet phrase—literally wishing someone 'delicious sleep'",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Xin phép",
+          "pronunciation": "Seen fep",
+          "literal": "Please permission",
+          "english": "Excuse me (to pass by)",
+          "whenToUse": "When you need to squeeze past someone",
+          "culturalTip": "Essential in crowded markets and streets",
+          "difficulty": "easy"
         }
       ]
     },
@@ -240,6 +456,60 @@
           "whenToUse": "When you've agreed on a price",
           "culturalTip": "Point at the item as you say it",
           "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tôi thử được không?",
+          "pronunciation": "Toy thuh doo-oc khom?",
+          "literal": "I try can or not?",
+          "english": "Can I try this on?",
+          "whenToUse": "Asking to try on clothes or test something",
+          "culturalTip": "Many small shops let you try things—just ask politely",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Có màu khác không?",
+          "pronunciation": "Go mow kak khom?",
+          "literal": "Have color other not?",
+          "english": "Do you have other colors?",
+          "whenToUse": "Looking for color options",
+          "culturalTip": "Vendors often have stock in back—worth asking",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Có size lớn hơn không?",
+          "pronunciation": "Go size lurn hurn khom?",
+          "literal": "Have size bigger not?",
+          "english": "Do you have a bigger size?",
+          "whenToUse": "When you need a larger size",
+          "culturalTip": "Vietnamese sizes run smaller—don't be shy to ask",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Nhận thẻ không?",
+          "pronunciation": "Nyan teh khom?",
+          "literal": "Accept card not?",
+          "english": "Do you accept cards?",
+          "whenToUse": "Asking if they take credit/debit cards",
+          "culturalTip": "Many small vendors are cash only—have dong ready",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Cho xem cái kia",
+          "pronunciation": "Cho sem kai kee-a",
+          "literal": "Let see thing that",
+          "english": "Let me see that one",
+          "whenToUse": "Asking to see something",
+          "culturalTip": "Point as you say it—vendors are happy to show you items",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Giá cố định",
+          "pronunciation": "Za go ding",
+          "literal": "Price fixed",
+          "english": "Fixed price",
+          "whenToUse": "Asking if the price is fixed or negotiable",
+          "culturalTip": "Many modern shops have fixed prices—bargaining isn't always expected",
+          "difficulty": "easy"
         }
       ]
     },
@@ -284,6 +554,285 @@
           "english": "I'm lost",
           "whenToUse": "When you can't find your way",
           "culturalTip": "Show your phone with destination—people will help or call you a Grab",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tôi không hiểu",
+          "pronunciation": "Toy khom hee-ew",
+          "literal": "I not understand",
+          "english": "I don't understand",
+          "whenToUse": "When you're confused or lost in translation",
+          "culturalTip": "Follow with hand gestures—people will find a way to communicate",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Nói chậm thôi",
+          "pronunciation": "Noy cham toy",
+          "literal": "Speak slow only",
+          "english": "Please speak slowly",
+          "whenToUse": "When someone is speaking too fast",
+          "culturalTip": "Locals are patient with learners—don't be shy to ask",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Bạn nói tiếng Anh không?",
+          "pronunciation": "Ban noy tee-eng an khom?",
+          "literal": "You speak language English not?",
+          "english": "Do you speak English?",
+          "whenToUse": "Looking for someone who speaks English",
+          "culturalTip": "Many young people speak some English—especially in tourist areas",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tôi cần giúp đỡ",
+          "pronunciation": "Toy gun zoop dur",
+          "literal": "I need help assist",
+          "english": "I need help",
+          "whenToUse": "When you need assistance with something",
+          "culturalTip": "Vietnamese people are generally very helpful to foreigners",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Gọi cảnh sát",
+          "pronunciation": "Goy gan sat",
+          "literal": "Call police",
+          "english": "Call the police",
+          "whenToUse": "In an emergency requiring police",
+          "culturalTip": "Police number is 113—hopefully you never need it",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers & Money",
+      "icon": "shopping-bag",
+      "description": "Understanding Vietnamese numbers is crucial for shopping, taxis, and daily transactions. These basics will help you navigate prices and payments.",
+      "culturalNote": "Vietnamese dong has lots of zeros (20,000 = about $1). Get comfortable with thousands. Vendors will often show you numbers on a calculator to avoid confusion.",
+      "phrases": [
+        {
+          "vietnamese": "Một",
+          "pronunciation": "Mote",
+          "literal": "One",
+          "english": "One",
+          "whenToUse": "Counting or ordering one item",
+          "culturalTip": "Foundation for all numbers—master this first",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Hai",
+          "pronunciation": "High",
+          "literal": "Two",
+          "english": "Two",
+          "whenToUse": "Counting or ordering two items",
+          "culturalTip": "Pronounced like English 'high'",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Ba",
+          "pronunciation": "Ba",
+          "literal": "Three",
+          "english": "Three",
+          "whenToUse": "Counting or ordering three items",
+          "culturalTip": "Simple and straightforward",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Năm",
+          "pronunciation": "Nam",
+          "literal": "Five",
+          "english": "Five",
+          "whenToUse": "Counting or ordering five items",
+          "culturalTip": "Watch the tone—different from 'năm' (year)",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Mười",
+          "pronunciation": "Moo-oy",
+          "literal": "Ten",
+          "english": "Ten",
+          "whenToUse": "Counting or ordering ten items",
+          "culturalTip": "Building block for larger numbers",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Một trăm",
+          "pronunciation": "Mote cham",
+          "literal": "One hundred",
+          "english": "One hundred",
+          "whenToUse": "Larger quantities or prices",
+          "culturalTip": "Add 'nghìn' (ngin) for thousand: 'một trăm nghìn' = 100,000",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Tiền thối",
+          "pronunciation": "Tee-en toy",
+          "literal": "Money return",
+          "english": "Change (money back)",
+          "whenToUse": "Asking for or referring to change",
+          "culturalTip": "Always count your change—mistakes happen",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Trả tiền ở đâu?",
+          "pronunciation": "Cha tee-en ur dow?",
+          "literal": "Pay money at where?",
+          "english": "Where do I pay?",
+          "whenToUse": "Looking for the checkout or payment location",
+          "culturalTip": "Some places you pay at table, some at counter",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Making Friends",
+      "icon": "hand-wave",
+      "description": "Moving beyond transactions into genuine connections. These phrases help you build friendships and have real conversations.",
+      "culturalNote": "Vietnamese people are genuinely curious about foreigners and eager to practice English. Showing interest in their language opens doors to real friendships and incredible experiences.",
+      "phrases": [
+        {
+          "vietnamese": "Tôi tên là...",
+          "pronunciation": "Toy ten la...",
+          "literal": "I name is...",
+          "english": "My name is...",
+          "whenToUse": "Introducing yourself",
+          "culturalTip": "Say your name clearly—Vietnamese names are also often nicknames",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Bạn tên là gì?",
+          "pronunciation": "Ban ten la zee?",
+          "literal": "You name is what?",
+          "english": "What's your name?",
+          "whenToUse": "Asking someone's name",
+          "culturalTip": "Follow up by trying to say their name—effort matters",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tôi đến từ Mỹ",
+          "pronunciation": "Toy den tuh Mee",
+          "literal": "I come from America",
+          "english": "I'm from America",
+          "whenToUse": "Telling people where you're from",
+          "culturalTip": "Replace 'Mỹ' with your country: Anh (UK), Úc (Australia), Canada (Canada)",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Bạn từ đâu?",
+          "pronunciation": "Ban tuh dow?",
+          "literal": "You from where?",
+          "english": "Where are you from?",
+          "whenToUse": "Asking where someone is from",
+          "culturalTip": "Common small talk—people love talking about their hometowns",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Tôi thích Việt Nam",
+          "pronunciation": "Toy tick Vee-et Nam",
+          "literal": "I like Vietnam",
+          "english": "I love Vietnam",
+          "whenToUse": "Expressing your appreciation for the country",
+          "culturalTip": "Makes people light up with pride—very endearing",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Bạn thích bia không?",
+          "pronunciation": "Ban tick bee-a khom?",
+          "literal": "You like beer not?",
+          "english": "Do you like beer?",
+          "whenToUse": "Suggesting drinks or making plans",
+          "culturalTip": "Replace 'bia' with 'cà phê' (coffee) for non-drinkers",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Đi uống cà phê không?",
+          "pronunciation": "Dee oo-ong cah-feh khom?",
+          "literal": "Go drink coffee not?",
+          "english": "Want to get coffee?",
+          "whenToUse": "Inviting someone for coffee",
+          "culturalTip": "Coffee dates are the foundation of Vietnamese social life",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Cho tôi số điện thoại",
+          "pronunciation": "Cho toy so dee-en twa-eye",
+          "literal": "Give me number telephone",
+          "english": "Can I have your phone number?",
+          "whenToUse": "Exchanging contact info with new friends",
+          "culturalTip": "Most people use Zalo (like WhatsApp)—ask for that too",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Hôm nay bạn thế nào?",
+          "pronunciation": "Home nai ban teh now?",
+          "literal": "Today you how?",
+          "english": "How was your day?",
+          "whenToUse": "Checking in with friends",
+          "culturalTip": "Shows you care beyond surface-level conversation",
+          "difficulty": "medium"
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "name": "Weather & Small Talk",
+      "icon": "coffee",
+      "description": "Small talk is universal. Weather, observations, and simple conversations help break the ice and practice your Vietnamese.",
+      "culturalNote": "Weather is a safe topic everywhere. Saigon is hot and humid most of the year, with a rainy season from May to November. Complaining about the heat bonds everyone.",
+      "phrases": [
+        {
+          "vietnamese": "Nóng quá!",
+          "pronunciation": "Nong kwa!",
+          "literal": "Hot very!",
+          "english": "So hot!",
+          "whenToUse": "Commenting on the heat (very common in Saigon)",
+          "culturalTip": "Instant bonding—everyone complains about the heat together",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Trời mưa rồi",
+          "pronunciation": "Choy moo-a zoy",
+          "literal": "Sky rain already",
+          "english": "It's raining",
+          "whenToUse": "Stating the obvious during rain",
+          "culturalTip": "Rain conversations lead to shelter-sharing and friendships",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Đẹp quá!",
+          "pronunciation": "Dep kwa!",
+          "literal": "Beautiful very!",
+          "english": "So beautiful!",
+          "whenToUse": "Complimenting anything—weather, food, places, objects",
+          "culturalTip": "Versatile phrase—works for almost anything positive",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Thời tiết hôm nay thế nào?",
+          "pronunciation": "Toy tee-et home nai teh now?",
+          "literal": "Weather today how?",
+          "english": "How's the weather today?",
+          "whenToUse": "Making small talk about weather",
+          "culturalTip": "In Saigon, answer is almost always 'hot' or 'rainy'",
+          "difficulty": "medium"
+        },
+        {
+          "vietnamese": "Mát quá!",
+          "pronunciation": "Mat kwa!",
+          "literal": "Cool very!",
+          "english": "So refreshing! / So cool!",
+          "whenToUse": "When there's a rare cool breeze or AC",
+          "culturalTip": "Cool weather is celebrated—treasure those moments",
+          "difficulty": "easy"
+        },
+        {
+          "vietnamese": "Có gì mới không?",
+          "pronunciation": "Go zee moy khom?",
+          "literal": "Have what new not?",
+          "english": "What's new? / What's up?",
+          "whenToUse": "Casual greeting with friends",
+          "culturalTip": "More personal than formal greetings",
           "difficulty": "medium"
         }
       ]

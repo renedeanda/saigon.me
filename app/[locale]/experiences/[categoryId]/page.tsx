@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import experiencesData from '@/data/experiences.json';
 import Link from 'next/link';
 import { ArrowLeft, MapPin, Clock, DollarSign, MessageCircle } from 'lucide-react';
+import { getExperienceMetadata } from '@/lib/metadata';
 
 interface Props {
   params: Promise<{
@@ -14,6 +15,17 @@ export function generateStaticParams() {
   return experiencesData.categories.map((category) => ({
     categoryId: category.id,
   }));
+}
+
+export async function generateMetadata({ params }: Props) {
+  const { categoryId } = await params;
+  const category = experiencesData.categories.find((c) => c.id === categoryId);
+
+  if (!category) {
+    return {};
+  }
+
+  return getExperienceMetadata(category.name, category.description);
 }
 
 export default async function CategoryPage({ params }: Props) {

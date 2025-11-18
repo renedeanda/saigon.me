@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import districtsData from '@/data/districts.json';
 import Link from 'next/link';
 import { MapPin, Clock, Sparkles, Lightbulb, ArrowLeft } from 'lucide-react';
+import { getDistrictMetadata } from '@/lib/metadata';
 
 interface Props {
   params: Promise<{
@@ -14,6 +15,17 @@ export function generateStaticParams() {
   return districtsData.districts.map((district) => ({
     slug: district.slug,
   }));
+}
+
+export async function generateMetadata({ params }: Props) {
+  const { slug } = await params;
+  const district = districtsData.districts.find((d) => d.slug === slug);
+
+  if (!district) {
+    return {};
+  }
+
+  return getDistrictMetadata(district.name, district.nickname, district.description);
 }
 
 export default async function DistrictPage({ params }: Props) {

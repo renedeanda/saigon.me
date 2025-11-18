@@ -6,6 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, RefreshCcw, MapPin } from 'lucide-react';
 import districtsData from '@/data/districts.json';
 
+// Note: Metadata export doesn't work in 'use client' components
+// SEO is handled by parent layout and component renders quickly
+
 interface Question {
   id: number;
   question: string;
