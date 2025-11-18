@@ -4,6 +4,7 @@ import { setRequestLocale } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { Navigation } from '@/components/Navigation';
 import { Footer } from '@/components/Footer';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import '../globals.css';
 
 const locales = ['en', 'vi'];
@@ -59,6 +60,7 @@ export default async function LocaleLayout({
         />
       </head>
       <body>
+        <GoogleAnalytics />
         <NextIntlClientProvider messages={messages}>
           <div className="flex flex-col min-h-screen">
             <Navigation />
