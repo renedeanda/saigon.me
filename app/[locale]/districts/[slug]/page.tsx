@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation';
 import districtsData from '@/data/districts.json';
 import Link from 'next/link';
 import { MapPin, Clock, Sparkles, Lightbulb, ArrowLeft } from 'lucide-react';
+import { getDistrictMetadata } from '@/lib/metadata';
 
 interface Props {
   params: Promise<{
@@ -16,8 +17,19 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function DistrictPage({ params }: Props) {
+export async function generateMetadata({ params }: Props) {
   const { slug } = await params;
+  const district = districtsData.districts.find((d) => d.slug === slug);
+
+  if (!district) {
+    return {};
+  }
+
+  return getDistrictMetadata(district.name, district.nickname, district.description);
+}
+
+export default async function DistrictPage({ params }: Props) {
+  const { slug, locale } = await params;
   const district = districtsData.districts.find((d) => d.slug === slug);
 
   if (!district) {
@@ -28,14 +40,17 @@ export default async function DistrictPage({ params }: Props) {
     <div className="min-h-screen">
       {/* Hero Section */}
       <section
-        className="py-20 relative overflow-hidden"
-        style={{
-          background: `linear-gradient(135deg, ${district.color}40, ${district.color}20)`,
-        }}
+        className="py-20 relative overflow-hidden bg-yellow-50 border-b border-gray-200"
       >
-        <div className="container mx-auto px-4">
+        <div
+          className="absolute inset-0 opacity-[0.08]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="container mx-auto px-4 relative z-10">
           <Link
-            href="/districts"
+            href={`/${locale}/districts`}
             className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 mb-8 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
@@ -179,14 +194,14 @@ export default async function DistrictPage({ params }: Props) {
 
             {/* Local Saying */}
             <div
-              className="rounded-lg p-6 shadow-sm text-white"
-              style={{ background: `linear-gradient(135deg, ${district.color}, ${district.color}dd)` }}
+              className="rounded-lg p-6 shadow-sm bg-white border-2"
+              style={{ borderColor: district.color }}
             >
-              <h3 className="text-xl font-bold mb-3">Local Saying</h3>
-              <p className="text-2xl font-bold mb-2">{district.localSaying.vietnamese}</p>
-              <p className="text-white/80 mb-2">{district.localSaying.pronunciation}</p>
-              <p className="text-lg mb-2">"{district.localSaying.english}"</p>
-              <p className="text-white/90 text-sm">{district.localSaying.context}</p>
+              <h3 className="text-xl font-bold mb-3 text-gray-900">Local Saying</h3>
+              <p className="text-2xl font-bold mb-2 text-gray-900">{district.localSaying.vietnamese}</p>
+              <p className="text-gray-600 mb-2">{district.localSaying.pronunciation}</p>
+              <p className="text-lg mb-2 text-gray-900">"{district.localSaying.english}"</p>
+              <p className="text-gray-700 text-sm">{district.localSaying.context}</p>
             </div>
           </div>
         </div>
@@ -201,7 +216,7 @@ export default async function DistrictPage({ params }: Props) {
               {district.didYouKnow.map((fact, idx) => (
                 <div
                   key={idx}
-                  className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-6"
+                  className="bg-gray-50 rounded-lg p-6 border border-gray-200"
                 >
                   <p className="text-gray-800">{fact}</p>
                 </div>

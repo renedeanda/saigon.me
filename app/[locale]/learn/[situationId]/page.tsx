@@ -3,6 +3,7 @@ import phrasesData from '@/data/phrases.json';
 import Link from 'next/link';
 import { ArrowLeft, Lightbulb, Info } from 'lucide-react';
 import { PronunciationButton } from '@/components/PronunciationButton';
+import { getLearnMetadata } from '@/lib/metadata';
 
 interface Props {
   params: Promise<{
@@ -17,8 +18,19 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function SituationPage({ params }: Props) {
+export async function generateMetadata({ params }: Props) {
   const { situationId } = await params;
+  const situation = phrasesData.situations.find((s) => s.id === situationId);
+
+  if (!situation) {
+    return {};
+  }
+
+  return getLearnMetadata(situation.name, situation.description);
+}
+
+export default async function SituationPage({ params }: Props) {
+  const { situationId, locale } = await params;
   const situation = phrasesData.situations.find((s) => s.id === situationId);
 
   if (!situation) {
@@ -41,31 +53,37 @@ export default async function SituationPage({ params }: Props) {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
-      <section className="bg-gradient-to-r from-secondary to-primary py-16">
-        <div className="container mx-auto px-4">
+      <section className="relative bg-yellow-50 py-16 border-b border-gray-200">
+        <div
+          className="absolute inset-0 opacity-[0.08]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="container mx-auto px-4 relative z-10">
           <Link
-            href="/learn"
-            className="inline-flex items-center gap-2 text-white/80 hover:text-white mb-6 group"
+            href={`/${locale}/learn`}
+            className="inline-flex items-center gap-2 text-gray-700 hover:text-gray-900 mb-6 group"
           >
             <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
             Back to all situations
           </Link>
 
           <div className="max-w-4xl">
-            <h1 className="text-5xl font-bold text-white mb-4">
+            <h1 className="text-5xl font-bold text-gray-900 mb-4">
               {situation.name}
             </h1>
-            <p className="text-xl text-white/90 mb-4">
+            <p className="text-xl text-gray-600 mb-4">
               {situation.description}
             </p>
 
             {/* Cultural Note */}
-            <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-lg p-6">
+            <div className="bg-primary/5 border-l-4 border-primary rounded-lg p-6">
               <div className="flex items-start gap-3">
-                <Info className="w-6 h-6 text-white flex-shrink-0 mt-1" />
+                <Info className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                 <div>
-                  <p className="font-semibold text-white mb-2">Cultural Context:</p>
-                  <p className="text-white/90">{situation.culturalNote}</p>
+                  <p className="font-semibold text-gray-900 mb-2">Cultural Context:</p>
+                  <p className="text-gray-700">{situation.culturalNote}</p>
                 </div>
               </div>
             </div>
@@ -109,7 +127,7 @@ export default async function SituationPage({ params }: Props) {
                   </div>
 
                   {/* English Translation */}
-                  <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-4 mb-4">
+                  <div className="bg-primary/5 rounded-lg p-4 mb-4 border border-gray-200">
                     <p className="text-2xl text-gray-900">
                       "{phrase.english}"
                     </p>
@@ -144,25 +162,25 @@ export default async function SituationPage({ params }: Props) {
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Practice Tips</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-primary/10 to-primary/5 rounded-lg p-6">
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">Start Simple</h3>
                 <p className="text-gray-700 text-sm">
                   Master 2-3 phrases before moving on. Use them in real situations. Confidence comes from repetition, not memorization.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-accent/10 to-accent/5 rounded-lg p-6">
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">Embrace Mistakes</h3>
                 <p className="text-gray-700 text-sm">
                   Vietnamese people are incredibly patient and supportive. Your accent will be off—that's okay. Effort matters more than perfection.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-secondary/10 to-secondary/5 rounded-lg p-6">
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">Use It Daily</h3>
                 <p className="text-gray-700 text-sm">
                   Order coffee in Vietnamese every morning. Say thank you in Vietnamese every time. Language lives in practice, not textbooks.
                 </p>
               </div>
-              <div className="bg-gradient-to-br from-success/10 to-success/5 rounded-lg p-6">
+              <div className="bg-gray-50 rounded-lg p-6 border border-gray-200">
                 <h3 className="font-bold text-gray-900 mb-2">Ask for Help</h3>
                 <p className="text-gray-700 text-sm">
                   "How do you say...?" is a powerful phrase. Locals love teaching their language and will become your best teachers over coffee.

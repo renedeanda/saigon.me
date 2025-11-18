@@ -1,0 +1,10 @@
+# robots.txt for Saigon.me
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://saigon.me/sitemap.xml
+
+# Crawl-delay (optional, good practice)
+Crawl-delay: 0

@@ -6,6 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, RefreshCcw, MapPin } from 'lucide-react';
 import districtsData from '@/data/districts.json';
 
+// Note: Metadata export doesn't work in 'use client' components
+// SEO is handled by parent layout and component renders quickly
+
 interface Question {
   id: number;
   question: string;
@@ -140,8 +143,14 @@ export default function QuizPage() {
     const result = calculateResult();
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-20">
-        <div className="container mx-auto px-4">
+      <div className="relative min-h-screen bg-yellow-50 py-20">
+        <div
+          className="absolute inset-0 opacity-[0.08]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+        <div className="container mx-auto px-4 relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -149,16 +158,13 @@ export default function QuizPage() {
           >
             <div className="bg-white rounded-2xl shadow-2xl overflow-hidden">
               {/* Result Header */}
-              <div
-                className="p-12 text-center text-white"
-                style={{ background: `linear-gradient(135deg, ${result.color}, ${result.color}dd)` }}
-              >
+              <div className="p-12 text-center bg-white border-b-4" style={{ borderColor: result.color }}>
                 <div className="text-8xl mb-6">{result.emoji}</div>
-                <h1 className="text-4xl font-bold mb-4">You're {result.name}!</h1>
-                <p className="text-2xl font-semibold mb-2">{result.nickname}</p>
+                <h1 className="text-4xl font-bold mb-4 text-gray-900">You're {result.name}!</h1>
+                <p className="text-2xl font-semibold mb-2" style={{ color: result.color }}>{result.nickname}</p>
                 <div className="flex flex-wrap justify-center gap-3 mt-6">
                   {result.vibe.map(vibe => (
-                    <span key={vibe} className="px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full">
+                    <span key={vibe} className="px-4 py-2 bg-gray-100 rounded-full text-gray-700">
                       {vibe}
                     </span>
                   ))}
@@ -179,11 +185,11 @@ export default function QuizPage() {
                   ))}
                 </div>
 
-                <div className="bg-gradient-to-br from-primary/10 to-accent/10 rounded-lg p-6 mb-8">
+                <div className="bg-gray-50 rounded-lg p-6 mb-8 border border-gray-200">
                   <h3 className="font-bold text-gray-900 mb-3">Best For:</h3>
                   <div className="flex flex-wrap gap-2">
                     {result.bestFor.map(item => (
-                      <span key={item} className="px-3 py-1 bg-white rounded-full text-sm font-medium">
+                      <span key={item} className="px-3 py-1 bg-white rounded-full text-sm font-medium border border-gray-200">
                         {item}
                       </span>
                     ))}
@@ -193,8 +199,8 @@ export default function QuizPage() {
                 {/* CTAs */}
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link
-                    href={`/districts/${result.slug}`}
-                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-secondary to-primary text-white rounded-lg font-semibold hover:shadow-xl transition-all"
+                    href={`/en/districts/${result.slug}`}
+                    className="flex-1 flex items-center justify-center gap-2 px-8 py-4 bg-primary text-white rounded-lg font-semibold hover:bg-primary/90 hover:shadow-xl transition-all"
                   >
                     <MapPin className="w-5 h-5" />
                     Explore {result.name}
@@ -223,8 +229,14 @@ export default function QuizPage() {
   const question = questions[currentQuestion];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/20 via-accent/20 to-secondary/20 py-20">
-      <div className="container mx-auto px-4">
+    <div className="relative min-h-screen bg-yellow-50 py-20">
+      <div
+        className="absolute inset-0 opacity-[0.08]"
+        style={{
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+        }}
+      />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto">
           {/* Progress */}
           <div className="mb-8">
@@ -238,7 +250,7 @@ export default function QuizPage() {
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2">
               <motion.div
-                className="bg-gradient-to-r from-secondary to-primary h-2 rounded-full"
+                className="bg-primary h-2 rounded-full"
                 initial={{ width: 0 }}
                 animate={{ width: `${((currentQuestion + 1) / questions.length) * 100}%` }}
                 transition={{ duration: 0.3 }}
