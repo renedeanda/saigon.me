@@ -6,21 +6,21 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
 
   return (
     <div className="relative">
-      {/* Hero Section - Subtle Red Background with Vietnamese Pattern */}
+      {/* Hero Section - Subtle Red Background with Polka Dot Pattern */}
       <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-red-50 pb-20 md:pb-24 pt-12 md:pt-16">
-        {/* Subtle Pattern Background with Red */}
+        {/* Subtle Polka Dot Pattern Background with Red */}
         <div
           className="absolute inset-0 opacity-[0.08]"
           style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23DC2626' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23DC2626' fill-opacity='1'%3E%3Ccircle cx='10' cy='10' r='3'/%3E%3Ccircle cx='30' cy='30' r='3'/%3E%3C/g%3E%3C/svg%3E")`,
           }}
         />
 
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-4xl mx-auto text-center space-y-8">
-            {/* Star Icon */}
+            {/* Motor Scooter Icon */}
             <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 rounded-full mb-4">
-              <span className="text-5xl">⭐</span>
+              <span className="text-5xl">🛵</span>
             </div>
 
             {/* Main Heading */}
