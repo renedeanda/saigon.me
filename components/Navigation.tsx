@@ -15,6 +15,7 @@ export function Navigation() {
     { href: '/districts', label: t('districts') },
     { href: '/experiences', label: t('experiences') },
     { href: '/learn', label: t('learn') },
+    { href: '/quiz', label: t('quiz') },
     { href: '/about', label: t('about') },
   ];
 

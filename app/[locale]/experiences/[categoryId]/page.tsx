@@ -135,7 +135,7 @@ export default async function CategoryPage({ params }: Props) {
                   )}
 
                   {/* Address if available */}
-                  {experience.address && (
+                  {'address' in experience && experience.address && (
                     <div className="mt-4 text-sm text-gray-600">
                       📍 {experience.address}
                     </div>

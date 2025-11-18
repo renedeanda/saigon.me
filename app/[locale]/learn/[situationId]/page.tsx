@@ -1,7 +1,8 @@
 import { notFound } from 'next/navigation';
 import phrasesData from '@/data/phrases.json';
 import Link from 'next/link';
-import { ArrowLeft, Volume2, Lightbulb, Info } from 'lucide-react';
+import { ArrowLeft, Lightbulb, Info } from 'lucide-react';
+import { PronunciationButton } from '@/components/PronunciationButton';
 
 interface Props {
   params: Promise<{
@@ -91,13 +92,7 @@ export default async function SituationPage({ params }: Props) {
                     >
                       {phrase.difficulty}
                     </span>
-                    <button
-                      className="flex items-center gap-2 text-secondary hover:text-primary transition-colors"
-                      title="Pronunciation guide (audio coming soon)"
-                    >
-                      <Volume2 className="w-5 h-5" />
-                      <span className="text-sm">Listen</span>
-                    </button>
+                    <PronunciationButton text={phrase.vietnamese} />
                   </div>
 
                   {/* Vietnamese Phrase */}

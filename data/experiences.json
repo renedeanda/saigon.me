@@ -93,6 +93,264 @@
             "meaning": "Coffee on the rooftop",
             "whenToUse": "Asking where the rooftop cafe is"
           }
+        },
+        {
+          "id": 6,
+          "title": "Sunrise at Thu Thiem Bridge",
+          "district": "District 2",
+          "time": "5:30-6:30 AM",
+          "season": "Year-round, best in dry season",
+          "description": "Thu Thiem Bridge sits above the Saigon River where you can watch the city wake up. Arrive before sunrise and watch orange light paint the riverfront skyscrapers. Fishermen cast nets below. Motorbikes begin their morning stream across the bridge. It's peaceful, contemplative, and costs nothing but an early alarm.",
+          "vibe": "Peaceful, Inspiring, Free",
+          "tip": "Bring a camera. The light between 5:45-6:15 AM is magical. Stay for the full transformation from dark to light.",
+          "price": "Free",
+          "vietnamesePhrase": {
+            "phrase": "Bình minh đẹp quá",
+            "pronunciation": "Bin min dep kwa",
+            "meaning": "The sunrise is so beautiful",
+            "whenToUse": "Expressing awe at the morning light"
+          }
+        },
+        {
+          "id": 7,
+          "title": "Street Yoga in 23/9 Park",
+          "district": "District 1",
+          "time": "6:00-7:00 AM",
+          "season": "Year-round",
+          "description": "Free community yoga happens every morning in 23/9 Park (September 23 Park). All levels welcome. Locals bring their own mats, but many just practice on grass. The instructor speaks Vietnamese but everyone follows along by watching. It's spontaneous community, Saigon-style.",
+          "vibe": "Community, Welcoming, Active",
+          "tip": "Just show up. Bring a mat or towel. Nobody cares if you're terrible at yoga.",
+          "price": "Free",
+          "vietnamesePhrase": {
+            "phrase": "Tôi có thể tham gia không?",
+            "pronunciation": "Toy co teh tam za khom?",
+            "meaning": "Can I join?",
+            "whenToUse": "Asking to join the yoga session"
+          }
+        },
+        {
+          "id": 8,
+          "title": "Lotus Tea at Phap Hoa Pagoda",
+          "district": "Phu Nhuan",
+          "time": "6:00-8:00 AM",
+          "season": "Year-round",
+          "description": "Phap Hoa Pagoda—home to 10,000 ceramic vases—serves lotus tea to visitors in the morning. The pagoda is peaceful, the tea is fragrant, and monks welcome respectful visitors. It's a moment of stillness before the city's chaos begins.",
+          "vibe": "Spiritual, Calm, Respectful",
+          "tip": "Dress modestly. Remove shoes before entering. Accept tea graciously and sit quietly.",
+          "price": "Free (small donation appreciated)",
+          "address": "408/15 3 Thang 2, Ward 12, District 10 (near Phu Nhuan)",
+          "vietnamesePhrase": {
+            "phrase": "Cảm ơn sư thầy",
+            "pronunciation": "Gahm un soo thay",
+            "meaning": "Thank you, monk/teacher",
+            "whenToUse": "Thanking monks respectfully"
+          }
+        },
+        {
+          "id": 9,
+          "title": "Fresh Coconut from a Street Vendor",
+          "district": "Any",
+          "time": "7:00-10:00 AM",
+          "season": "Year-round, especially refreshing in hot season",
+          "description": "Morning heat hits fast in Saigon. Find a street vendor with a cart of fresh coconuts. They'll hack one open with a machete, stick in a straw, and hand you pure refreshment. Ice-cold coconut water is nature's hangover cure and the perfect start to a hot day.",
+          "vibe": "Refreshing, Simple, Essential",
+          "tip": "After drinking the water, ask them to split the coconut open and scoop out the soft meat—it's delicious.",
+          "price": "$0.50-1",
+          "vietnamesePhrase": {
+            "phrase": "Một trái dừa",
+            "pronunciation": "Mote chai zuh-a",
+            "meaning": "One coconut",
+            "whenToUse": "Ordering from the vendor"
+          }
+        },
+        {
+          "id": 10,
+          "title": "Breakfast Banh Cuon at Binh Thanh Market",
+          "district": "Binh Thanh",
+          "time": "6:00-9:00 AM",
+          "season": "Year-round",
+          "description": "Banh cuon—steamed rice rolls filled with minced pork and mushrooms—is a Northern Vietnamese breakfast that Saigon has embraced. At Binh Thanh Market, vendors make them fresh, the rice batter steamed paper-thin, filled, rolled, and served with herbs and nuoc cham. It's delicate, light, and utterly satisfying.",
+          "vibe": "Traditional, Light, Delicious",
+          "tip": "Add extra herbs and fried shallots. The sauce is key—mix it well.",
+          "price": "$2-3",
+          "vietnamesePhrase": {
+            "phrase": "Bánh cuốn nóng",
+            "pronunciation": "Ban koo-un nong",
+            "meaning": "Hot/fresh banh cuon",
+            "whenToUse": "Ordering fresh steamed rolls"
+          }
+        },
+        {
+          "id": 11,
+          "title": "Bird-Watching at Tao Dan Park",
+          "district": "District 1",
+          "time": "6:00-7:30 AM",
+          "season": "Year-round",
+          "description": "Elderly men bring their songbirds to Tao Dan Park every morning, hanging cages in trees so the birds can 'socialize.' It's an old Saigonese tradition. Listen to the symphony of bird songs, watch the men care for their feathered friends, and witness a practice that predates the city's modern chaos.",
+          "vibe": "Traditional, Peaceful, Unique",
+          "tip": "Be respectful—these birds are beloved pets. Photography is okay but ask permission first.",
+          "price": "Free",
+          "vietnamesePhrase": {
+            "phrase": "Chim hót hay quá",
+            "pronunciation": "Chim hot hai kwa",
+            "meaning": "The birds sing so beautifully",
+            "whenToUse": "Complimenting someone's bird"
+          }
+        },
+        {
+          "id": 12,
+          "title": "Bun Bo Hue for Breakfast",
+          "district": "District 3",
+          "time": "6:00-9:00 AM",
+          "season": "Year-round",
+          "description": "Bun bo Hue—spicy beef noodle soup from Central Vietnam—is heartier and spicier than pho. Morning is when locals eat it, before the heat becomes unbearable. The broth is rich with lemongrass, the beef is tender, and the chili oil adds kick that wakes you up faster than coffee.",
+          "vibe": "Spicy, Robust, Authentic",
+          "tip": "It's spicier than pho—if you can't handle heat, ask for 'it khong cay' (less spicy).",
+          "price": "$3-4",
+          "vietnamesePhrase": {
+            "phrase": "Bún bò Huế ít cay",
+            "pronunciation": "Boon baw hway it kai",
+            "meaning": "Bun bo Hue, less spicy",
+            "whenToUse": "Ordering with reduced spice level"
+          }
+        },
+        {
+          "id": 13,
+          "title": "Morning Market Run at Ben Thanh",
+          "district": "District 1",
+          "time": "5:30-7:00 AM",
+          "season": "Year-round",
+          "description": "Ben Thanh Market before 8 AM is a different beast than the tourist trap it becomes later. Early morning is when locals shop for fresh produce, meat, and flowers. Prices are real, bargaining is minimal, and you see the market as it was meant to be—a place of commerce, not performance.",
+          "vibe": "Authentic, Busy, Real",
+          "tip": "Go early—after 8 AM the tour groups arrive and the energy changes completely.",
+          "price": "Varies (shopping budget)",
+          "vietnamesePhrase": {
+            "phrase": "Bao nhiêu một ký?",
+            "pronunciation": "Bao nyew mote kee?",
+            "meaning": "How much per kilogram?",
+            "whenToUse": "Asking prices at the market"
+          }
+        },
+        {
+          "id": 14,
+          "title": "Specialty Coffee at Bosgaurus",
+          "district": "District 2",
+          "time": "7:00-10:00 AM",
+          "season": "Year-round",
+          "description": "Bosgaurus Coffee Roasters sits by the Saigon River, a 10-minute ride from downtown. Owner Hung is one of Saigon's most knowledgeable coffee devotees, roasting on-site. Morning is perfect—quiet, cool(ish), and you can watch boats on the river while sipping some of Vietnam's best specialty coffee.",
+          "vibe": "Sophisticated, Peaceful, Quality",
+          "tip": "Try the Vietnamese single-origin pour-over. Ask Hung about the beans—he loves talking coffee.",
+          "price": "$3-5",
+          "address": "451 Xuan Thuy, Thao Dien, District 2",
+          "vietnamesePhrase": {
+            "phrase": "Cà phê pha tay",
+            "pronunciation": "Cah-feh fa tai",
+            "meaning": "Pour-over coffee",
+            "whenToUse": "Ordering specialty manual brew"
+          }
+        },
+        {
+          "id": 15,
+          "title": "Egg Coffee at Naii",
+          "district": "District 3",
+          "time": "7:00-10:00 AM",
+          "season": "Year-round",
+          "description": "Ca phe trung (egg coffee) is a Hanoi invention that Saigon has adopted. At Naii Specialty Coffee, they whip egg yolks with condensed milk and sugar into a creamy foam, pour it over strong coffee. It sounds weird. It tastes like liquid tiramisu. It's breakfast and dessert in one cup.",
+          "vibe": "Indulgent, Unique, Rich",
+          "tip": "Drink it slowly—the egg foam is rich. It's more dessert than caffeine hit.",
+          "price": "$3-4",
+          "vietnamesePhrase": {
+            "phrase": "Cà phê trứng",
+            "pronunciation": "Cah-feh chung",
+            "meaning": "Egg coffee",
+            "whenToUse": "Ordering this Hanoi specialty"
+          }
+        },
+        {
+          "id": 16,
+          "title": "Flower Market at Ho Thi Ky",
+          "district": "District 10 (near Phu Nhuan)",
+          "time": "3:00-7:00 AM",
+          "season": "Year-round, busiest before Tet",
+          "description": "Ho Thi Ky flower market operates in the pre-dawn hours when wholesalers and florists trade. Mountains of roses, orchids, chrysanthemums, and lotus fill the street. The smell is intoxicating. Watching the organized chaos of flower trading is mesmerizing—and you can buy a huge bouquet for under $5.",
+          "vibe": "Vibrant, Fragrant, Wholesale",
+          "tip": "Arrive before 6 AM for the full energy. Wear clothes you don't mind getting dirty—it's chaotic.",
+          "price": "$3-10 for bouquets",
+          "vietnamesePhrase": {
+            "phrase": "Hoa này bao nhiêu?",
+            "pronunciation": "Hwa nai bao nyew?",
+            "meaning": "How much are these flowers?",
+            "whenToUse": "Asking prices at the flower market"
+          }
+        },
+        {
+          "id": 17,
+          "title": "Che (Sweet Soup) Breakfast",
+          "district": "Any district",
+          "time": "6:00-9:00 AM",
+          "season": "Year-round",
+          "description": "Che is Vietnamese sweet soup—served hot or cold, with combinations of beans, jellies, fruits, coconut milk, and ice. It sounds odd for breakfast but locals love it. Street vendors serve it from dawn. It's sweet, refreshing, and gives you energy for the morning ahead.",
+          "vibe": "Sweet, Refreshing, Traditional",
+          "tip": "Try che ba mau (three-color sweet soup) or che dau xanh (mung bean sweet soup).",
+          "price": "$1-2",
+          "vietnamesePhrase": {
+            "phrase": "Chè ba màu",
+            "pronunciation": "Cheh ba mao",
+            "meaning": "Three-color sweet soup",
+            "whenToUse": "Ordering this popular variety"
+          }
+        },
+        {
+          "id": 18,
+          "title": "Running the Saigon River Path",
+          "district": "District 2",
+          "time": "5:30-7:00 AM",
+          "season": "Year-round, cooler in dry season",
+          "description": "The Thu Thiem riverside path in District 2 is Saigon's best running route. Smooth pavement, river breeze, skyline views. Early morning is coolest—locals jog, walk, and exercise along the water. It's 3km one way, perfect for a sunrise run before the heat sets in.",
+          "vibe": "Active, Scenic, Community",
+          "tip": "Hydrate well. Even morning runs in Saigon are humid. Finish with coconut water from a vendor.",
+          "price": "Free",
+          "vietnamesePhrase": {
+            "phrase": "Chạy bộ buổi sáng",
+            "pronunciation": "Chai baw boo-oy sang",
+            "meaning": "Morning run/jogging",
+            "whenToUse": "Describing your morning activity"
+          }
+        },
+        {
+          "id": 19,
+          "title": "Thit Kho (Caramelized Pork) Breakfast",
+          "district": "Any district",
+          "time": "6:00-8:00 AM",
+          "season": "Year-round",
+          "description": "Thit kho is usually dinner food—pork belly slow-cooked in coconut water until caramelized and tender. But some vendors serve it for breakfast with rice and pickled vegetables. It's rich, savory, and provides fuel for a long day. Locals eat it with hot rice and don't think twice about the indulgence.",
+          "vibe": "Hearty, Savory, Indulgent",
+          "tip": "Come hungry—this is not a light breakfast. The pickled vegetables cut through the richness.",
+          "price": "$2-3",
+          "vietnamesePhrase": {
+            "phrase": "Thịt kho tàu",
+            "pronunciation": "Teet kaw tao",
+            "meaning": "Caramelized pork with eggs",
+            "whenToUse": "Ordering this comfort food classic"
+          }
+        },
+        {
+          "id": 20,
+          "title": "Meditation at Jade Emperor Pagoda",
+          "district": "District 1",
+          "time": "6:00-7:30 AM",
+          "season": "Year-round",
+          "description": "The Jade Emperor Pagoda is ornate, smoky with incense, and surprisingly peaceful in early morning. Locals come to pray and meditate before work. Non-Buddhists are welcome—just be respectful. Sit quietly, watch the rituals, let the incense smoke curl around you. It's a different kind of Saigon morning.",
+          "vibe": "Spiritual, Quiet, Contemplative",
+          "tip": "Remove shoes. Dress modestly. Silence your phone. Observe, don't interrupt.",
+          "price": "Free (small donation for incense appreciated)",
+          "address": "73 Mai Thi Luu, District 1",
+          "vietnamesePhrase": {
+            "phrase": "Thắp nhang",
+            "pronunciation": "Tap nyang",
+            "meaning": "Light incense",
+            "whenToUse": "Participating in the ritual"
+          }
         }
       ]
     },
@@ -169,6 +427,182 @@
             "meaning": "May I take a photo?",
             "whenToUse": "Always ask before photographing people"
           }
+        },
+        {
+          "id": 25,
+          "title": "Hidden Hem Behind Nguyen Thai Binh",
+          "district": "District 1",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 26,
+          "title": "Secret Art Galleries in District 3 Alleys",
+          "district": "District 3",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 27,
+          "title": "Tailor Alley on Le Thanh Ton",
+          "district": "District 1",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 28,
+          "title": "Lantern Makers in District 5",
+          "district": "District 5",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 29,
+          "title": "Furniture Street in Go Vap",
+          "district": "Go Vap",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 30,
+          "title": "Flower Alleys of Phu Nhuan",
+          "district": "Phu Nhuan",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 31,
+          "title": "Banh Mi Alley District 1",
+          "district": "District 1",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 32,
+          "title": "Coffee Roasters Behind Tan Dinh Market",
+          "district": "District 3",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 33,
+          "title": "Fabric Wholesale Alleys Cholon",
+          "district": "District 5",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 34,
+          "title": "Antique Shops on Le Cong Kieu",
+          "district": "District 1",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 35,
+          "title": "Com Tam Alley Pham Ngu Lao",
+          "district": "District 1",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 36,
+          "title": "Tarot Readers Alley District 3",
+          "district": "District 3",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 37,
+          "title": "Second-hand Book Street",
+          "district": "District 1",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 38,
+          "title": "Jewelry Making Alley",
+          "district": "District 1",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 39,
+          "title": "Ao Dai Seamstresses Hidden Lane",
+          "district": "District 3",
+          "time": "Best in afternoon",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
+        },
+        {
+          "id": 40,
+          "title": "Night Food Alley Tran Hung Dao",
+          "district": "District 1",
+          "time": "Anytime",
+          "season": "Year-round",
+          "description": "Saigon's alleys (hẻm) hide entire worlds. Venture off main streets and discover specialized trades, family businesses, and neighborhood life invisible from the boulevard. Each alley tells its own story—from lantern makers who've worked the same craft for 40 years to coffee roasters perfecting single origins.",
+          "vibe": "Hidden, Authentic, Surprising",
+          "tip": "Be respectful—these are working neighborhoods. Smile, ask permission for photos, buy something small to support local businesses.",
+          "price": "Varies"
         }
       ]
     },
@@ -264,6 +698,278 @@
             "meaning": "Which floor is the coffee shop on?",
             "whenToUse": "Navigating the Apartment's many levels"
           }
+        },
+        {
+          "id": 46,
+          "title": "Bot Chien (Fried Rice Cake) in Cholon",
+          "district": "District 5",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 47,
+          "title": "Goi Cuon (Fresh Spring Rolls) Lesson",
+          "district": "District 1",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 48,
+          "title": "Ca Kho To (Claypot Fish) at Local Eatery",
+          "district": "District 4",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 49,
+          "title": "Xoi Man (Savory Sticky Rice) Breakfast",
+          "district": "Any",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 50,
+          "title": "Hu Tieu Nam Vang (Cambodian Noodles)",
+          "district": "District 5",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 51,
+          "title": "Banh Trang Nuong (Vietnamese Pizza)",
+          "district": "District 1",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 52,
+          "title": "Mi Quang (Turmeric Noodles)",
+          "district": "District 3",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 53,
+          "title": "Banh Khot (Mini Savory Pancakes)",
+          "district": "District 4",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 54,
+          "title": "Cao Lau in Little Hoi An",
+          "district": "District 1",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 55,
+          "title": "Bun Thit Nuong (Grilled Pork Vermicelli)",
+          "district": "Any",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 56,
+          "title": "Oc (Snails) at Night Markets",
+          "district": "District 4",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 57,
+          "title": "Banh Beo (Water Fern Cakes)",
+          "district": "District 5",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 58,
+          "title": "Che Chuoi (Banana Sweet Soup)",
+          "district": "Any",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 59,
+          "title": "Banh Gio (Pyramid Dumplings)",
+          "district": "Any",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 60,
+          "title": "Hot Vit Lon (Developing Duck Egg)",
+          "district": "District 1",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
+        },
+        {
+          "id": 61,
+          "title": "Lau (Vietnamese Hotpot) with Locals",
+          "district": "Any",
+          "time": "Varies by dish",
+          "season": "Year-round",
+          "description": "Vietnamese cuisine extends far beyond pho. Each dish has its own tradition, technique, and perfect moment to eat it. From pyramid-shaped dumplings steamed at dawn to snails prepared 20 different ways at night markets, Saigon's food culture rewards the adventurous.",
+          "vibe": "Delicious, Authentic, Adventurous",
+          "tip": "Point at what looks good. Watch how locals eat it. Don't be afraid to use your hands when appropriate.",
+          "price": "$2-5",
+          "vietnamesePhrase": {
+            "phrase": "Món này ngon",
+            "pronunciation": "Mon nai ngon",
+            "meaning": "This dish is delicious",
+            "whenToUse": "Complimenting the food"
+          }
         }
       ]
     },
@@ -357,6 +1063,278 @@
             "meaning": "Can I play?",
             "whenToUse": "Asking to join the game"
           }
+        },
+        {
+          "id": 86,
+          "title": "Join a Vietnamese Cooking Class",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 87,
+          "title": "Volunteer at Local Community Center",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 88,
+          "title": "Attend Free English Corner Meetup",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 89,
+          "title": "Play Badminton with Locals in Park",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 90,
+          "title": "Join Sunday Cycling Group",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 91,
+          "title": "Attend Vietnamese Wedding (if invited)",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 92,
+          "title": "Visit Local Family for Dinner",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 93,
+          "title": "Tea Ceremony with Elder",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 94,
+          "title": "Learn Traditional Music Instrument",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 95,
+          "title": "Join Photography Walk Group",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 96,
+          "title": "Attend Local Festival",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 97,
+          "title": "Help at Neighborhood Cleanup",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 98,
+          "title": "Join Language Exchange Cafe",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 99,
+          "title": "Attend Buddhist Temple Event",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 100,
+          "title": "Visit Veterans Coffee Shop",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
+        },
+        {
+          "id": 101,
+          "title": "Join Expat-Local Meetup Group",
+          "district": "Various",
+          "time": "Varies by activity",
+          "season": "Year-round",
+          "description": "Saigon's real treasures are its people. The city has countless ways to connect—from structured classes to spontaneous park games. Vietnamese people are naturally welcoming, and showing genuine interest in their culture opens doors faster than perfect language skills.",
+          "vibe": "Connective, Warm, Memorable",
+          "tip": "Be open, be humble, be curious. Bring small gifts if visiting homes. Exchange contact information—friendships continue beyond single encounters.",
+          "price": "Free to moderate",
+          "vietnamesePhrase": {
+            "phrase": "Rất vui được gặp bạn",
+            "pronunciation": "Rat voo-ee doo-oc gap ban",
+            "meaning": "Very happy to meet you",
+            "whenToUse": "When making new friends"
+          }
         }
       ]
     },
@@ -432,6 +1410,278 @@
             "pronunciation": "Cah-feh mang dee",
             "meaning": "Coffee to-go",
             "whenToUse": "Ordering takeaway coffee"
+          }
+        },
+        {
+          "id": 65,
+          "title": "Late Night District 1 Food Run",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 66,
+          "title": "Airport to City First Ride",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 67,
+          "title": "Rainy Season Motorbike Experience",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 68,
+          "title": "Flower Market Run at 3 AM",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 69,
+          "title": "Weekend Escape to Cu Chi Tunnels",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 70,
+          "title": "Sunset Ride to Vung Tau Beach",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 71,
+          "title": "District Hopping Food Tour",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 72,
+          "title": "Morning Commute Like a Local",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 73,
+          "title": "Night Market Circuit",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 74,
+          "title": "Grab Bike vs Xe Om Experience",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 75,
+          "title": "Learning to Ride in Quiet Streets",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 76,
+          "title": "Traffic Circle Survival",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 77,
+          "title": "Bridge Crossing at Rush Hour",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 78,
+          "title": "Countryside Day Trip",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 79,
+          "title": "Mekong Delta Weekend Ride",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
+          }
+        },
+        {
+          "id": 80,
+          "title": "Saigon Grand Prix Route",
+          "district": "Various",
+          "time": "Varies",
+          "season": "Year-round",
+          "description": "Motorbikes aren't just transportation in Saigon—they're a lifestyle, a dance, a survival skill. From your first terrified ride from the airport to confidently navigating rush hour traffic, each motorbike experience teaches you something about Saigon's rhythm and flow.",
+          "vibe": "Exhilarating, Freeing, Essential",
+          "tip": "Always wear a helmet. Go with traffic flow. Trust the system—chaos has rules, even if they're invisible to newcomers.",
+          "price": "$3-8 for Grab Bike",
+          "vietnamesePhrase": {
+            "phrase": "Đội mũ bảo hiểm",
+            "pronunciation": "Doy moo bao hee-em",
+            "meaning": "Wear a helmet",
+            "whenToUse": "Essential safety reminder"
           }
         }
       ]
