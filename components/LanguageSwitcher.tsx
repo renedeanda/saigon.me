@@ -13,29 +13,30 @@ export function LanguageSwitcher() {
     if (!pathname) return;
     const segments = pathname.split('/');
     segments[1] = newLocale;
-    router.push(segments.join('/'));
+    const newPath = segments.join('/');
+    router.push(newPath);
   };
 
   return (
-    <div className="flex items-center gap-2 rounded-full bg-white/10 backdrop-blur-sm px-3 py-1.5 border border-white/20">
-      <Globe className="w-4 h-4 text-primary" />
+    <div className="flex items-center gap-2 rounded-full bg-gray-100 px-3 py-1.5 border border-gray-200">
+      <Globe className="w-4 h-4 text-gray-600" />
       <button
         onClick={() => switchLanguage('en')}
-        className={`text-sm font-medium transition-colors ${
+        className={`text-sm font-medium transition-colors px-2 py-1 rounded ${
           locale === 'en'
-            ? 'text-primary'
-            : 'text-white/70 hover:text-white'
+            ? 'bg-primary text-white'
+            : 'text-gray-600 hover:text-gray-900'
         }`}
       >
         EN
       </button>
-      <span className="text-white/40">|</span>
+      <span className="text-gray-400">|</span>
       <button
         onClick={() => switchLanguage('vi')}
-        className={`text-sm font-medium transition-colors ${
+        className={`text-sm font-medium transition-colors px-2 py-1 rounded ${
           locale === 'vi'
-            ? 'text-primary'
-            : 'text-white/70 hover:text-white'
+            ? 'bg-primary text-white'
+            : 'text-gray-600 hover:text-gray-900'
         }`}
       >
         VI

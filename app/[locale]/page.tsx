@@ -1,58 +1,69 @@
 import Link from 'next/link';
 import { ArrowRight, MapPin, Coffee, BookOpen } from 'lucide-react';
 
-export default function HomePage() {
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+
   return (
     <div className="relative">
-      {/* Hero Section */}
-      <section className="relative min-h-[90vh] flex items-center justify-center bg-gradient-to-br from-primary via-secondary to-accent overflow-hidden">
-        {/* Animated Background Elements */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-10 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-float" />
-          <div className="absolute bottom-20 right-10 w-96 h-96 bg-white/10 rounded-full blur-3xl animate-float" style={{ animationDelay: '1s' }} />
-        </div>
+      {/* Hero Section - Subtle Vietnamese Pattern Background */}
+      <section className="relative min-h-[85vh] flex items-center justify-center overflow-hidden bg-white">
+        {/* Subtle Pattern Background */}
+        <div
+          className="absolute inset-0 opacity-[0.03]"
+          style={{
+            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23FFD700' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          }}
+        />
+
+        {/* Subtle gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-white/50" />
 
         <div className="container mx-auto px-4 relative z-10">
-          <div className="text-center space-y-8">
+          <div className="max-w-4xl mx-auto text-center space-y-8">
+            {/* Lantern Icon */}
+            <div className="inline-flex items-center justify-center w-24 h-24 bg-primary/10 rounded-full mb-4">
+              <span className="text-5xl">🏮</span>
+            </div>
+
             {/* Main Heading */}
             <div className="space-y-4">
-              <h1 className="text-6xl md:text-8xl font-bold text-white drop-shadow-lg">
-                <span className="block">Welcome to</span>
-                <span className="block text-primary drop-shadow-2xl">Sài Gòn</span>
+              <h1 className="text-5xl md:text-7xl font-bold text-gray-900 tracking-tight">
+                Welcome to <span className="text-primary">Sài Gòn</span>
               </h1>
-              <p className="text-2xl md:text-3xl text-white/90 font-light">
+              <p className="text-2xl md:text-3xl text-gray-600 font-light">
                 Where every street tells a story
               </p>
             </div>
 
-            {/* Rotating Taglines */}
-            <div className="text-xl md:text-2xl text-white/80 font-light space-y-2">
-              <p className="animate-pulse">🏮 The city that never stops hustling</p>
-              <p className="animate-pulse" style={{ animationDelay: '0.5s' }}>🛵 Where motorbikes dance and coffee flows</p>
-              <p className="animate-pulse" style={{ animationDelay: '1s' }}>❤️ A love letter to the soul of Vietnam</p>
+            {/* Taglines - More Subtle */}
+            <div className="text-lg md:text-xl text-gray-500 space-y-2 max-w-2xl mx-auto">
+              <p>The city that never stops hustling</p>
+              <p>Where motorbikes dance and coffee flows</p>
+              <p>A love letter to the soul of Vietnam</p>
             </div>
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
               <Link
-                href="/districts"
-                className="group px-8 py-4 bg-white text-secondary rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2"
+                href={`/${locale}/districts`}
+                className="group px-8 py-4 bg-primary text-white rounded-lg font-semibold text-lg shadow-lg hover:shadow-xl hover:scale-105 transition-all flex items-center gap-2"
               >
                 <MapPin className="w-5 h-5" />
                 Meet the Districts
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
-                href="/experiences"
-                className="group px-8 py-4 bg-secondary text-white rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2"
+                href={`/${locale}/experiences`}
+                className="group px-8 py-4 bg-white text-gray-900 border-2 border-gray-200 rounded-lg font-semibold text-lg hover:border-primary hover:text-primary transition-all flex items-center gap-2"
               >
                 <Coffee className="w-5 h-5" />
                 100 Ways to Fall in Love
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link
-                href="/learn"
-                className="group px-8 py-4 bg-accent text-white rounded-full font-semibold text-lg shadow-xl hover:shadow-2xl hover:scale-105 transition-all flex items-center gap-2"
+                href={`/${locale}/learn`}
+                className="group px-8 py-4 bg-white text-gray-900 border-2 border-gray-200 rounded-lg font-semibold text-lg hover:border-accent hover:text-accent transition-all flex items-center gap-2"
               >
                 <BookOpen className="w-5 h-5" />
                 Learn Vietnamese
@@ -61,31 +72,24 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <div className="w-6 h-10 border-2 border-white/50 rounded-full flex justify-center">
-            <div className="w-1 h-3 bg-white/50 rounded-full mt-2 animate-pulse" />
-          </div>
-        </div>
       </section>
 
       {/* Quick Intro Section */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-white border-t border-gray-100">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
               The Soul of Sài Gòn
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              This isn't just another travel guide. This is a celebration—of the districts that each have their own personality, the 100 experiences that will make you fall in love, and the language that connects it all. Whether you're visiting for the first time, living here as an expat, or a local curious about how foreigners see your city, welcome home.
+              This isn't just another travel guide. This is a celebration—of the districts that each have their own personality, the 100 experiences that will make you fall in love, and the language that connects us all. Whether you're visiting for the first time, living here as an expat, or a local curious about how foreigners see your city, welcome home.
             </p>
           </div>
         </div>
       </section>
 
       {/* Featured Districts Preview */}
-      <section className="py-20 bg-gradient-to-br from-gray-50 to-gray-100">
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
@@ -99,8 +103,8 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             {/* District 1 */}
             <Link
-              href="/districts/district-1"
-              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 hover:scale-105"
+              href={`/${locale}/districts/district-1`}
+              className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all p-8 border border-gray-100 hover:border-primary"
             >
               <div className="text-6xl mb-4">💼</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">District 1</h3>
@@ -112,8 +116,8 @@ export default function HomePage() {
 
             {/* District 3 */}
             <Link
-              href="/districts/district-3"
-              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 hover:scale-105"
+              href={`/${locale}/districts/district-3`}
+              className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all p-8 border border-gray-100 hover:border-accent"
             >
               <div className="text-6xl mb-4">🎨</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">District 3</h3>
@@ -125,8 +129,8 @@ export default function HomePage() {
 
             {/* District 4 */}
             <Link
-              href="/districts/district-4"
-              className="group bg-white rounded-2xl shadow-lg hover:shadow-2xl transition-all p-8 hover:scale-105"
+              href={`/${locale}/districts/district-4`}
+              className="group bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all p-8 border border-gray-100 hover:border-success"
             >
               <div className="text-6xl mb-4">🍜</div>
               <h3 className="text-2xl font-bold text-gray-900 mb-2">District 4</h3>
@@ -139,10 +143,10 @@ export default function HomePage() {
 
           <div className="text-center mt-12">
             <Link
-              href="/districts"
-              className="inline-flex items-center gap-2 text-lg font-semibold text-secondary hover:text-primary transition-colors"
+              href={`/${locale}/districts`}
+              className="inline-flex items-center gap-2 text-lg font-semibold text-primary hover:text-primary/80 transition-colors"
             >
-              Explore all 7 districts
+              Explore all 8 districts
               <ArrowRight className="w-5 h-5" />
             </Link>
           </div>
