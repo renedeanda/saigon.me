@@ -26,7 +26,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             {/* Main Heading */}
             <div className="space-y-4">
               <h1 className="text-5xl md:text-7xl font-bold text-gray-900 tracking-tight">
-                Welcome to <span className="text-primary">Sài Gòn</span>
+                Welcome to <span className="text-primary whitespace-nowrap">Sài Gòn</span>
               </h1>
               <p className="text-2xl md:text-3xl text-gray-600 font-light">
                 Where every street tells a story
@@ -76,7 +76,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900">
-              The Soul of Sài Gòn
+              The Soul of <span className="whitespace-nowrap">Sài Gòn</span>
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
               This isn't just another travel guide. This is a celebration—of the districts that each have their own personality, the 100 experiences that will make you fall in love, and the language that connects us all. Whether you're visiting for the first time, living here as an expat, or a local curious about how foreigners see your city, welcome home.

@@ -16,7 +16,7 @@ export default function AboutPage() {
         />
         <div className="container mx-auto px-4 text-center relative z-10">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            About Sài Gòn.me
+            About <span className="whitespace-nowrap">Sài Gòn.me</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto">
             A love letter to the soul of Saigon
