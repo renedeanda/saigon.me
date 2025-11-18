@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import citiesData from '@/data/cities.json';
 import { getCityMetadata } from '@/lib/metadata';
-import PronunciationButton from '@/components/PronunciationButton';
+import { PronunciationButton } from '@/components/PronunciationButton';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
